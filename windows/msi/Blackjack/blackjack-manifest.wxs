@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="blackjack_ROOTDIR">
+            <Directory Id="dir631210A168C61F9545A578A6CF8AC338" Name="app">
+                <Component Id="cmpCBD5C3ED7389ED03D7F63149ABB5F82F" Guid="{220F9D28-EE98-4B88-A77F-93D658EE4B80}">
+                    <File Id="fil5E6928CF2C07857D9985E88AD564FA54" KeyPath="yes" Source="$(var.SourceDir)\app\README" />
+                </Component>
+                <Directory Id="dir275E5328A2C9A6D7F466E3D64F83F1EA" Name="blackjack">
+                    <Component Id="cmp38C5EC3F6A6F974815BAAAA8A7FAC7D8" Guid="{89D33207-5DBB-4B45-8C8A-B40DB15F4599}">
+                        <File Id="fil853AE66C2A353A3047B64604C0CEF0AC" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\app.py" />
+                    </Component>
+                    <Component Id="cmpF17F198021AA3210C05253596579043A" Guid="{0A32AB36-4134-4B26-9A95-9CDD2F972FCC}">
+                        <File Id="filEF6DB84C25A38F3565A43D18D2E86557" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\__init__.py" />
+                    </Component>
+                    <Component Id="cmpD334F5E27E54AEF040C0D5AD06AC9B84" Guid="{CC64ED70-DC70-460C-95E5-F6D6CD4A9162}">
+                        <File Id="filC60C093CC865E142F411904CBE7BBB36" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\__main__.py" />
+                    </Component>
+                    <Directory Id="dir41C1687C41B42DA99F06E0300046076D" Name="resources">
+                        <Component Id="cmpA1BE8173E5D24AED281C30E786CA3297" Guid="{C17DCC93-4730-48CF-9EAD-C0C030034568}">
+                            <File Id="fil783140D1ED8E8FBEC6556A55DB22CDF8" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\resources\blackjack.icns" />
+                        </Component>
+                        <Component Id="cmp2B0F72E759463416AEDA10DC2831497B" Guid="{B2F28519-0328-4CA7-8B93-F4F33F210671}">
+                            <File Id="filBA774C71AAD9A307E84F5733896DB338" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\resources\blackjack.ico" />
+                        </Component>
+                        <Component Id="cmp1BCF9E4C152A68D8479E654801DF5067" Guid="{52153771-5D14-4038-9AB4-9101C80193AF}">
+                            <File Id="fil43975A3E32FAECBD81552228AF1C8F7D" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\resources\blackjack.png" />
+                        </Component>
+                        <Component Id="cmp89244439B1A2014396C944780451F525" Guid="{33239DB9-3968-4CFC-8141-4C5C8B53AE54}">
+                            <File Id="fil0BD556DB4E59ED330506D54244B23681" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\resources\__init__.py" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="dir4173AB03FA25E49238D0B2E2989AEB4A" Name="__pycache__">
+                        <Component Id="cmpFDDFC926480E3551E29BFFC4BFF00127" Guid="{34AC3A09-F4FF-493A-8795-35722E25E3CE}">
+                            <File Id="fil0AA69AECAED8A44BCFA772449BF7F35B" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\__pycache__\app.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpBFF8876D0D803ADD9222A0EFF9BF208A" Guid="{D1287E15-D415-43B5-9D99-C524E1BD858E}">
+                            <File Id="fil8BFDC9FA6571D4E9DCA0D4A429EF2E06" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\__pycache__\__init__.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp10180543BB15EA4C7E5181267966D452" Guid="{05E17062-4EAC-4D6E-8D6B-520BA03F392F}">
+                            <File Id="fil83C4478BA097AF9D3F007E0804173494" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack\__pycache__\__main__.cpython-38.pyc" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir66EF0DBE865DE516B5A6473331569B67" Name="blackjack-0.0.1.dist-info">
+                    <Component Id="cmp0A3AC91134D22E64EB1852AABB578BD4" Guid="{F82A9552-817E-414D-B18D-060A5232FB6F}">
+                        <File Id="fil1B16D8BB5CB934D7952F20BC8211BF34" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack-0.0.1.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmpDE4DFAB18EF4A32F4CA6027D3803EB9B" Guid="{4B0157E5-40E2-4BB5-9FA5-A265F980F461}">
+                        <File Id="fil0A39FFF26143A2684F5A19AEE4385EE3" KeyPath="yes" Source="$(var.SourceDir)\app\blackjack-0.0.1.dist-info\METADATA" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="dirAEE0770F0E910B8AE4E40F5F26531D68" Name="app_packages">
+                <Component Id="cmp447841D3171D1EFD25544A6020EC7EC7" Guid="{478BF553-2AFD-4D18-843E-F155056A427F}">
+                    <File Id="fil17DBDDD277F28FF31E1D557C31BCF664" KeyPath="yes" Source="$(var.SourceDir)\app_packages\clr.pyd" />
+                </Component>
+                <Component Id="cmp06A9F249A537B0B7E1DC858354FD1A6F" Guid="{A3234A1B-3E26-487D-9D9C-C967DD585914}">
+                    <File Id="fil6C7C3CB159F25185E61624A5F88C4CE4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\Python.Runtime.dll" />
+                </Component>
+                <Component Id="cmpE2697BB42ECAD3916F57B698B4A742D4" Guid="{D8C8AF5E-3F5F-44C8-B8DB-ADE12F5BE54B}">
+                    <File Id="fil5A6931BB8CC8429DC0596ABB3666E885" KeyPath="yes" Source="$(var.SourceDir)\app_packages\README" />
+                </Component>
+                <Directory Id="dir84EE4E587BE17DE0F5627D54EA007694" Name="pycparser">
+                    <Component Id="cmp8B263F06B9EC809507A754E6AC65A0B9" Guid="{7F00ECE0-8F26-4266-93A4-5EB3B75045F2}">
+                        <File Id="fil9F16B29E3F777F8B4EA8BAEC966C0631" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ast_transforms.py" />
+                    </Component>
+                    <Component Id="cmpA1C3EC6938A9CEB73535F5D0E86A5067" Guid="{870DE0D3-23C6-4EAD-A4EB-39C61833302E}">
+                        <File Id="filBC271021C519D6E6308B5B9D99166D1A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\c_ast.py" />
+                    </Component>
+                    <Component Id="cmpCE6004845180DACF6B1A46E15F9CADF7" Guid="{3EB871F2-D32F-4003-A836-837FB161671D}">
+                        <File Id="fil3A40ECA79917EEE4FEF3700B76E72144" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\c_generator.py" />
+                    </Component>
+                    <Component Id="cmpA0D193A544EC0ADA683F70735DFF5F4C" Guid="{8A575003-8360-4B09-ACEA-50F0D06E6235}">
+                        <File Id="filB74CECD4B376ADFABB6990A31894A817" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\c_lexer.py" />
+                    </Component>
+                    <Component Id="cmpFD09778077FC7C6097A4F301F3CA1761" Guid="{25EA532F-6086-48B4-9361-3D76DCA3202C}">
+                        <File Id="filF6153EF86DDB6C32AE5C02839688E02E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\c_parser.py" />
+                    </Component>
+                    <Component Id="cmpC5437771563CE4BC4564825FAC0777BE" Guid="{8CF5131D-175A-4000-AD59-45CED107004E}">
+                        <File Id="fil4DE0AC5388B8695207272A16C6CB0EA0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\lextab.py" />
+                    </Component>
+                    <Component Id="cmpBFC62D8C2543870FC66EABE079642E1B" Guid="{A3451EE9-B031-4251-9AE2-02B12CB51148}">
+                        <File Id="fil6249C84C3D01AA0D0D0656D6C45FCF27" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\plyparser.py" />
+                    </Component>
+                    <Component Id="cmp19A1DF519EC938091C12EB3D59FBAC0D" Guid="{75B79665-ED64-434C-BE03-1D46B360E180}">
+                        <File Id="filDB1937F072C876D975E351C7FD5C98E5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\yacctab.py" />
+                    </Component>
+                    <Component Id="cmp6EACB31BFC115556A547392ED25F3501" Guid="{EDA7D10D-8D44-4E99-B8A2-534B84C3B203}">
+                        <File Id="filB551C949FE067946CDF3B359C8A6433F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\_ast_gen.py" />
+                    </Component>
+                    <Component Id="cmpA64077D6FFC53B7AFE7DF3962BD9A5F2" Guid="{C645D798-B469-4727-BDEF-BAB262C05CB8}">
+                        <File Id="filA725321FE45F32BCDDD8A3076C6F7940" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\_build_tables.py" />
+                    </Component>
+                    <Component Id="cmpE6FE54F418172B156D31507C75E3C1ED" Guid="{12009E66-126D-45C9-A994-204D91A9F729}">
+                        <File Id="filDBDDA58C8E712ED38850CA419CBC63A7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\_c_ast.cfg" />
+                    </Component>
+                    <Component Id="cmp38687C70E7DEC72D09C53A78D01F57AC" Guid="{07C298F8-1973-430E-85E3-B174F8916BD0}">
+                        <File Id="fil6A86736456AC95896339FEEB4705A0CD" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__init__.py" />
+                    </Component>
+                    <Directory Id="dirFED534BCA6FD88A6E3A4B6888370DA9F" Name="ply">
+                        <Component Id="cmp61B68FD9005B269E5B9C0277AA3A68F4" Guid="{92F044DA-883B-4ADE-9E37-79C59D41B92A}">
+                            <File Id="fil4D77E9D0AFBE5FAE987DDAA9D18D9839" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\cpp.py" />
+                        </Component>
+                        <Component Id="cmpA43D3F6EFBE0A8C582714FDE2697EAB6" Guid="{772DCE3B-13BD-498A-9D4B-910C109747D3}">
+                            <File Id="filD213FD8687508F85E0715CB2CF501E8E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\ctokens.py" />
+                        </Component>
+                        <Component Id="cmpD221D5ECBC10A031E5DF0E291F4E6866" Guid="{FF8F9338-F21B-4F05-9832-3A2E3EEC3AB0}">
+                            <File Id="fil12658626D77E9AF4E83ECA46B76E9FA9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\lex.py" />
+                        </Component>
+                        <Component Id="cmp85FED2D05FB70E063775547446C03285" Guid="{84F14A63-46E5-46B7-B575-9818B1767A82}">
+                            <File Id="fil0D52995A4B7DC5ED3B606C258D81FC17" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\yacc.py" />
+                        </Component>
+                        <Component Id="cmp66EF43EF6FC15198F12C45B5D437B8AB" Guid="{B270B3A2-FADE-4001-92CE-EA17D9FAEF77}">
+                            <File Id="fil33F9DA299CC5D4F0A422344990D86E88" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\ygen.py" />
+                        </Component>
+                        <Component Id="cmp51D03242BAA6158A0C81682207471474" Guid="{4322A5AC-D91C-4E70-87D0-9464087B147C}">
+                            <File Id="fil9922887B87D9F7E8918F4757586052D8" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__init__.py" />
+                        </Component>
+                        <Directory Id="dir37F5AD63810BC0217454B63293E6CBC9" Name="__pycache__">
+                            <Component Id="cmpBD5A538351A61D98F75194A5F7CC1222" Guid="{7D0C66D2-54A3-4CC1-8775-B4C2CC1AB56D}">
+                                <File Id="fil1BDD07235F47AE242D3D94D6E2657495" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\cpp.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp36C0B338506C7D5F053322502BA7B492" Guid="{075B0944-44CA-4DB9-9B3B-372D04E19244}">
+                                <File Id="filC60DC6E76E73B990C14988911A4D26E4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\ctokens.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpF1C6E9863D8AA7232A724BD6CED0D677" Guid="{B603F14D-F270-4ED5-87C5-A049934C27A9}">
+                                <File Id="fil670C2236C19EE376D451DEFD3C75340B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\lex.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpEE6CE2F76A9F36CD5278198929666AF0" Guid="{84BA6D0B-7C69-4C5E-94DD-2938EBB55028}">
+                                <File Id="filE81AF511B7D6214A42447741A387E9A7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\yacc.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp65E70C202C2ABCA789D46372FC948156" Guid="{6EC8D459-6CF6-4755-BEFB-2741DF57D062}">
+                                <File Id="filCF62A269A2F0BF7D21509D4EC879D07D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\ygen.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBB0DB4BF6AB50BB74EEDF7025AA228CE" Guid="{7621151F-1078-4BB4-B14F-48169792F25D}">
+                                <File Id="filB77A15F80C10545398623F597AA2E9D1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\ply\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir57C4EEE7DDE7CABCA748AD7D7A8BCEC8" Name="__pycache__">
+                        <Component Id="cmp024734F33A0B1FAF34ACBBB8C34B34D3" Guid="{5F943E1D-1F52-42F2-8D8F-30FA571B97DB}">
+                            <File Id="fil9E69DE5DD81C6BE1F1BCBB3E9F53286B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\ast_transforms.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpC4760FE6A343E082FFCD94DDA5FF03D5" Guid="{F32124FB-EEED-4E64-B1AF-6E77C2B6202C}">
+                            <File Id="fil578BAFFF67A4AE35A30C9F0351C170EB" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\c_ast.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpAEB914179C303F2802E0E68A54E29B9C" Guid="{C73AABD2-FDCB-496D-BAD1-DF5A486E9C75}">
+                            <File Id="fil58FB873ACD36FFE9A31AA4A61666621A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\c_generator.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp271FC1C3A2867FAC8BE8F1230AB35C90" Guid="{0943D76F-774E-415C-9CFF-E4BBAA44BF62}">
+                            <File Id="filBD9CAFDAC017A42C88A83F6859C3CAB8" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\c_lexer.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp3E49E2B5AA93BCC2F122B5337D20CA80" Guid="{D0767CFD-7818-4C39-BD1B-5BC44BF084E6}">
+                            <File Id="filF4144FD96E308750A6CABE91BEE92657" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\c_parser.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp549223005ED56F210514A1EFC1AFD1B4" Guid="{6F1293FD-CE82-43A6-8A13-F6649E86D97D}">
+                            <File Id="fil024A18127429522536232389CBD0B16F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\lextab.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpFE7723CC233C3CD426188A5650B45088" Guid="{6DB5FEF7-C0DD-41AD-B22E-DBE2FDD18A23}">
+                            <File Id="fil6A5C314F469AE58F76F4E20960017331" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\plyparser.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpFD2893FBB52B911D4083F75CA7CE3FB8" Guid="{597A7A24-9B2C-41CF-873F-F1ED6DC633BB}">
+                            <File Id="filF9C7F4651235BDDF41349FCD608DE8E6" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\yacctab.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpD0E79F565EA864940DF2AC5043083BED" Guid="{56FCCCC9-A29D-4A11-A90B-9ED43156B36F}">
+                            <File Id="fil322D1B3C59CE4A9764EA796960445383" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\_ast_gen.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp31264CF6079D8144D00381F0012DFCB7" Guid="{41E1CA2C-7781-4F88-80EB-7712C780B5EE}">
+                            <File Id="filE2C0C98008E88888A20E2AFF7E7F65D2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\_build_tables.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpE68E248DBD6AA69319F82452909FD1FC" Guid="{6F978B60-32B2-4D64-B274-408898A095CA}">
+                            <File Id="fil289F1AB51FF18BCC21D7BC978EEB6884" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser\__pycache__\__init__.cpython-38.pyc" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dirCE8F1427516D279634CB73DCD10B694C" Name="pycparser-2.20.dist-info">
+                    <Component Id="cmpF14556E1DC67BAE018A21E9CB44626C9" Guid="{19333E1E-A337-4120-A211-D6C04549710E}">
+                        <File Id="fil73CF8DE58D205CCA2174CFC33D0850A9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmp1F5BBDDB884B8CCB0F260C4E84582189" Guid="{813D1348-B190-43D7-A04D-964225A36409}">
+                        <File Id="fil592726C6DDDDA54E0F08A9531805519F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\LICENSE" />
+                    </Component>
+                    <Component Id="cmpE48F4E3C93ACFBD9544BC86EA1848408" Guid="{1C01D1B7-278B-4492-9B0A-C7C6C3023EC5}">
+                        <File Id="fil30CA12D1D869E8E93A8E6937C6A4CB64" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\METADATA" />
+                    </Component>
+                    <Component Id="cmp27877F0B4DB1F9D0E2A9E3F4C5C774AF" Guid="{292C5652-FB1C-427E-BA9B-4738F17C1DEF}">
+                        <File Id="filF6BCABCF9FBD0E0EC413D28DDA863BA0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\RECORD" />
+                    </Component>
+                    <Component Id="cmpF35BCFAD971C561DDFBF073206B5F91F" Guid="{5FCDAD95-E593-4FFE-8170-DC2922608ECE}">
+                        <File Id="filFA461B94B26F1965793DAADA52D6FA51" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\top_level.txt" />
+                    </Component>
+                    <Component Id="cmp20E3E9125CD97A7026F3DA4262392F9E" Guid="{FB49106F-DE48-45B7-BF69-C99111514B69}">
+                        <File Id="filF359DA4C06039196D635613F17632AEF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pycparser-2.20.dist-info\WHEEL" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir4EE565101446CB7CC53FA6EA802BE86F" Name="pythonnet-2.5.2.dist-info">
+                    <Component Id="cmp336250C46E0D3C1F3911C05CA598D9AE" Guid="{3F418A37-691A-4579-8755-B7067AD38573}">
+                        <File Id="filD5E2802C5F0796731FD91DACAB99A1D9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\AUTHORS.md" />
+                    </Component>
+                    <Component Id="cmp8722DA2FDA6C400D804B92F1D63D14F8" Guid="{02BF18DD-CA96-4BC0-AE63-82E30BD265D7}">
+                        <File Id="fil605FCA7D40E382C48F315E103A880460" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmp1AF96E9140224CDD22AC8606886A1B2B" Guid="{E36EE6F3-98E6-4195-8351-E3CD5BDB9735}">
+                        <File Id="fil986FC0F93B71C3F13E7F3CA13F0D2086" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\LICENSE" />
+                    </Component>
+                    <Component Id="cmpEFD6C978CFD54827BB795DE00B63055B" Guid="{C5BD458A-825D-4EFE-BF15-FF154BC818CC}">
+                        <File Id="fil041113D8A6F4A471858403129AF4AF6A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\METADATA" />
+                    </Component>
+                    <Component Id="cmpF6AE5A4D9F1FEAD4871989EDD8F51585" Guid="{8F4B311B-8AB9-40BC-9E42-12E322480C05}">
+                        <File Id="filCFB978F11FA87313ED6E6175018DB54E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\RECORD" />
+                    </Component>
+                    <Component Id="cmp597C23A80FE62403624A896207FD5D81" Guid="{743A0DEF-5BE0-4219-925B-73B746788C8C}">
+                        <File Id="fil39EA5137C09142B73B8B3AD802B8740F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\top_level.txt" />
+                    </Component>
+                    <Component Id="cmp18754F85AD18767616860ED8DDE0E7B4" Guid="{2972FA79-B213-459C-8E02-EC9A635F2D11}">
+                        <File Id="fil17C63F65382FD42A208CDC159292F740" KeyPath="yes" Source="$(var.SourceDir)\app_packages\pythonnet-2.5.2.dist-info\WHEEL" />
+                    </Component>
+                </Directory>
+                <Directory Id="dirC4A77F1301FD52D858E95EA8C1683EC3" Name="toga">
+                    <Component Id="cmpCF33A6698687921071C20C01B4047923" Guid="{63EF8220-DF45-4E39-93E4-99B98A6BA772}">
+                        <File Id="fil1916A72AFF409802DDD3E15012AC4C85" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\app.py" />
+                    </Component>
+                    <Component Id="cmpB490AD1C44E923FF77533200DC1946C7" Guid="{9DBC05B7-E9C2-47E0-B947-B98386E27756}">
+                        <File Id="fil070B1DCFBD6DDA9963DF0F3DAADB1410" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\colors.py" />
+                    </Component>
+                    <Component Id="cmpC9B3B0B7A569A7B0F168E57B8B58CE6D" Guid="{2C72F586-8898-4A90-8A8F-5F6125FD880E}">
+                        <File Id="fil8577D73B4B99F457240DFE2B1868E073" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\command.py" />
+                    </Component>
+                    <Component Id="cmp2F55963F1F45958412B8465EF2AA6067" Guid="{ED32686B-51BA-4583-BD7F-C29A1C64EE9D}">
+                        <File Id="fil589B312C8DF449103558CBA9B7437887" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\documents.py" />
+                    </Component>
+                    <Component Id="cmp91E33DC5B5E4974DF65D1E9FB7249598" Guid="{15E6A2FA-1032-4796-AFB2-95DE28BDB123}">
+                        <File Id="fil03B77E8F2FB84C03B886CB65B0845F0A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\fonts.py" />
+                    </Component>
+                    <Component Id="cmp7A14BA0CD9105F620F9FE03B973FDC29" Guid="{CD03B8ED-FB38-453A-9576-C1896FF4F7A9}">
+                        <File Id="fil60A598FF015A82DF4EFB2B4D0502AFC4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\handlers.py" />
+                    </Component>
+                    <Component Id="cmp02E5D0058F55F807413A882F8B51090A" Guid="{E6855C41-C77D-4A53-8E86-44E32984494B}">
+                        <File Id="fil4F092D64242DD9E2203E42E36B0D84EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\icons.py" />
+                    </Component>
+                    <Component Id="cmp5DFAC37BF81454649A3285B6243BE7A8" Guid="{70F14AD2-F1B3-453E-B333-9DA50CEB7900}">
+                        <File Id="filD9D80B8B5BA0FFA9630FA3163E773021" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\images.py" />
+                    </Component>
+                    <Component Id="cmpE5D514FD9759C204F0163730678A5086" Guid="{329FC6DB-FC2F-4A5B-BCC3-7157BF39FE82}">
+                        <File Id="filDFE7F31E7204B66CAC6EC7BC16BC63B3" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\keys.py" />
+                    </Component>
+                    <Component Id="cmpD4BE4731D972250614A2258A121681EA" Guid="{A508ACD7-B327-4B2D-B5CC-7B9519EF0FBF}">
+                        <File Id="filC3E50041926CAB09ED344509F1DAA14A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\platform.py" />
+                    </Component>
+                    <Component Id="cmp4F027330AC0B69907D68C09D127A99FE" Guid="{EEE3BB10-661B-4575-B8BD-1E5C2A17239A}">
+                        <File Id="filE09375CDA6977D1D3BA710EF7C3B91FC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\validators.py" />
+                    </Component>
+                    <Component Id="cmpAD575E4AD829446EAFD7946B612884D3" Guid="{814DA07E-ED6D-4262-A2CE-558A7835E47E}">
+                        <File Id="fil7501E027E795944A5843167564660BE5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\window.py" />
+                    </Component>
+                    <Component Id="cmp62AB2B94675B8C957D0674BD149C6151" Guid="{2FFE4842-0D1E-4CA4-B482-E2C455AD2912}">
+                        <File Id="fil72049C4602C4F5B15D6FB5A0F48DEC8B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__init__.py" />
+                    </Component>
+                    <Directory Id="dirC05E1F1AC10E69084997FBB81DCC4E57" Name="constants">
+                        <Component Id="cmp454A20C2F45CC95D5E467647B46B8B0C" Guid="{6420C8FA-B65B-4C98-8C20-3B8C4BEB6805}">
+                            <File Id="fil54AD584251C61DD3357F84011EA6AB24" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\constants\__init__.py" />
+                        </Component>
+                        <Directory Id="dir96170597403C21BDD8F317C1900E1E1D" Name="__pycache__">
+                            <Component Id="cmp78E2FA66714554ABE4E4E1AF1C4F6135" Guid="{3BC4B8D6-8FA1-42CE-9DAF-52DDA0269F8E}">
+                                <File Id="fil9CA466B70E6C5673ABF2D42EAFD8F332" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\constants\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dirD8C6CD6F1D5B17E21D37F374929CF463" Name="hardware">
+                        <Component Id="cmpF2BD8C95380FB172E8CE74F53C497D48" Guid="{6191CF4B-CE43-452E-9259-C0376B2890DC}">
+                            <File Id="fil8E29184710250EC98F47685CF14F1B98" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\hardware\__init__.py" />
+                        </Component>
+                        <Directory Id="dir3CB729BCC35CFF13DFBDC5CC4781868C" Name="__pycache__">
+                            <Component Id="cmp43F079AC1FAE8E7E3639D008BC227225" Guid="{67E1DC9C-15E8-48FC-85F6-043562747963}">
+                                <File Id="filADD21857F5620728778B900922B98D7A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\hardware\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir082B1C048C4AD40B00BB9F5EE644DDD2" Name="resources">
+                        <Component Id="cmp565C3B9217B71F6C2E7E775D23DEAB80" Guid="{C4AB5761-951B-4D80-BA6A-4EC34D1BCCC2}">
+                            <File Id="fil942E4EAC114CA7521BB38C1307A61605" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\resources\toga-32.png" />
+                        </Component>
+                        <Component Id="cmpA1D7BCD540CE7FC2CED9FC4502F100C3" Guid="{37147F0C-76FB-4C04-AC0D-7D50BDF93115}">
+                            <File Id="filC8512B730608CC3E3D8AF68CDB0BDEF8" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\resources\toga.icns" />
+                        </Component>
+                        <Component Id="cmp677A15684827A74B907282D5E7A648EC" Guid="{9E19D2C3-E6FC-4AF7-810A-16379C194A9D}">
+                            <File Id="filB1AA70AB370BAEA601A7C3A84066AC8A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\resources\toga.ico" />
+                        </Component>
+                        <Component Id="cmpECF64077B94D325B12E474F2669E8D59" Guid="{B5293D82-2BE5-47B3-AA48-261A1A0EB46D}">
+                            <File Id="fil9059D03CDB1C4B7A21B807C193C471EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\resources\__init__.py" />
+                        </Component>
+                        <Directory Id="dirE6E0134FAFCEB6937D42FECD922445AE" Name="__pycache__">
+                            <Component Id="cmp05178A59130BDB5DE4D2DCC4C54ADCF9" Guid="{1F3C250C-9244-462E-8A0E-83D1E05CB2DB}">
+                                <File Id="filCD972E274F9ADD1033EFE7CDD5060E73" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\resources\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir4AF9D50465950CC3578353C61766187A" Name="sources">
+                        <Component Id="cmpE62B5F69844FA35FB8C86BFF975F6986" Guid="{F47F456E-DBE4-4E67-8CBB-41E5DAD38B50}">
+                            <File Id="fil9F5B2A8D5338D0D6249B40253ABC2238" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\accessors.py" />
+                        </Component>
+                        <Component Id="cmp8687C17DDD2C0A299DDAEB455BCF93EF" Guid="{1041BB0B-D35B-489E-9B39-96E44E3D4D3B}">
+                            <File Id="filCC57DD9BA750DDFDFEFA41CABC74B539" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\base.py" />
+                        </Component>
+                        <Component Id="cmpA2B8EDEA2DF308DE8B6B121B94454726" Guid="{AF2F0EDF-CCBB-4B2B-8152-6A76278FBAC2}">
+                            <File Id="filF072A05AA884F67A436C697F8D78CA53" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\list_source.py" />
+                        </Component>
+                        <Component Id="cmpB21195450C6DA1F84F6CF776E637B30B" Guid="{D4810EB2-C084-4E75-B881-785A155EA9EF}">
+                            <File Id="filF74A2BDAC981C8456DE8C354F6FEC9B0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\tree_source.py" />
+                        </Component>
+                        <Component Id="cmpB2B69B077FE2047691A7BA680B267EAB" Guid="{6CD80AAF-423F-46B9-9A65-E3D9D515B8E9}">
+                            <File Id="filDD4EACB1009121CD0C45276625FBE1D7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\value_source.py" />
+                        </Component>
+                        <Component Id="cmp23704CC1B7575D0DC72B1E0AE388FA5F" Guid="{9FAE3650-532D-494F-99DB-583C49386749}">
+                            <File Id="filA701907B4EDA9CB3DBF3C90C5436692B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__init__.py" />
+                        </Component>
+                        <Directory Id="dirEF1CE01E7C4CFA79600D2EC4FAC19068" Name="__pycache__">
+                            <Component Id="cmp2EDBFE1D18F8BCEDCEA6B7ED05BC800C" Guid="{8864556F-9EFC-408E-9E52-E7AB3DEC6B59}">
+                                <File Id="filBC3548C74D7F5E2FF2E7838243585F8B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\accessors.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp30DE7527F95EB67E23413FEC65228C53" Guid="{EBD938D8-0485-4BD8-B34F-65960C6FEF21}">
+                                <File Id="fil64C2D72AEA6DC9E0E3C32560C23203AE" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\base.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpA8A8CDD6D172146AA309D2510C04DCEC" Guid="{E29CEBA1-8BFB-4C19-A34E-F04B94FEE987}">
+                                <File Id="filE1B77E259A2B7C4FA37554D9812DE17A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\list_source.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp60B22800520F87F160EFAC0A051ED0D1" Guid="{57039D14-BEC6-4944-B1BD-A54986E30BCA}">
+                                <File Id="filA26FF53D0E834D94E3951462D456C6BF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\tree_source.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp4CEB1326F60614D34027A564BD3633CE" Guid="{269870B6-8578-4F70-A25E-CA456F5985E4}">
+                                <File Id="filA08B38EDFF47A032CB393ECB90DBD6ED" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\value_source.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpB30C276449669EC417B21AA306D46520" Guid="{CC2418F8-257F-4A28-A534-7E00EE9060AE}">
+                                <File Id="fil87C1ACAAA1FE1D92AA2D5AD93D11D4D6" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\sources\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir87595AAF05F8C8B76813514F41D67EF8" Name="style">
+                        <Component Id="cmp33329BD66A811BA50BF0D320C9967532" Guid="{DFBEFF2A-4ED6-4315-BF3E-66C7DD0DBFA8}">
+                            <File Id="fil5BBC35DE1678C8267F53136DEBF5CBF5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\applicator.py" />
+                        </Component>
+                        <Component Id="cmpE83D137D4500A66E3118BD772096D554" Guid="{B3A1E33E-EC11-4574-BA07-C828E425627D}">
+                            <File Id="filF5927E5CA73615FC9613CCCB1C5D1D90" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\pack.py" />
+                        </Component>
+                        <Component Id="cmp4A0F9154B18B9F20502AF053C4DBADA3" Guid="{B757263A-CC3B-4E1C-9701-D096A382E91B}">
+                            <File Id="fil40D390D2214B751951A42A54715F9AF5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\__init__.py" />
+                        </Component>
+                        <Directory Id="dirCC4AE78A829139FB3E3C12AF3E5F29EF" Name="__pycache__">
+                            <Component Id="cmp7C6C6D41098F048EBC6A77203CAD88C1" Guid="{9852FAEE-81D3-4937-AA18-8AFA42544755}">
+                                <File Id="fil260DE557B153210C451DBD756317A32F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\__pycache__\applicator.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpCA974E42AB8553F202D91897606D211A" Guid="{36CE78ED-3F92-4D73-90CF-AEEB785602D5}">
+                                <File Id="filE06CF56B5CF6BEF0C7361BF17B006B74" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\__pycache__\pack.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp3505A1C7452D9D47038F44F5B6D87190" Guid="{91CEB8C8-CEC6-4088-9861-E108B62D29E1}">
+                                <File Id="filF6AD386DE4D9F040F4EFF511EFBE07D2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\style\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir7534BCD23389BE8E1D92407B053835B4" Name="widgets">
+                        <Component Id="cmp1A03858DAC39D7F564197374E66961CF" Guid="{9AED415B-7580-4A84-B708-0D7CC35AD61D}">
+                            <File Id="fil87D451DBD737C8FA113F5DF288672387" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\activityindicator.py" />
+                        </Component>
+                        <Component Id="cmp293B05AEB2EF4E0A56A289B056A85F0B" Guid="{63EC2FBD-61EB-4371-A3F9-9D57DD1E2F9F}">
+                            <File Id="filBDA52E5AD01E2F46510B2E1EC7D7FE1A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\base.py" />
+                        </Component>
+                        <Component Id="cmp5E97ED52111DB621FA5A54050F974D12" Guid="{5E604887-6F78-4E2E-9F95-4D96CC4ED29E}">
+                            <File Id="fil146E15A3D030518548B2BAEF5428D856" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\box.py" />
+                        </Component>
+                        <Component Id="cmpE6918D2929C7357C8DE45E0D62024434" Guid="{ED3D8B67-FB40-49D4-99C7-DD433E786204}">
+                            <File Id="fil038C9346968D5CD2B6D345946E9F8102" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\button.py" />
+                        </Component>
+                        <Component Id="cmpBBF4F65617BC2C644DC2B1FD70BECE81" Guid="{368DF88D-B66C-4CA3-B43F-79D24C651C1D}">
+                            <File Id="fil678939AA44A1AAC1C6E10B9CB0C05219" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\canvas.py" />
+                        </Component>
+                        <Component Id="cmpE601FD3B35DB80D97DE14BB4F4DB12E7" Guid="{6CD79D95-56BF-496B-B580-B69C0EB41BBF}">
+                            <File Id="fil25DEF7FFB3B9237D95810E5032D6CF9A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\datepicker.py" />
+                        </Component>
+                        <Component Id="cmp3ABA090604E989EAC76EB55737A6350C" Guid="{23FCC62C-193D-4412-B1D9-113EB6295227}">
+                            <File Id="filFE5C432D6243E42C6794649CA2285369" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\detailedlist.py" />
+                        </Component>
+                        <Component Id="cmp23DF7B9F6F06AB171AA4889A9A616A88" Guid="{DC81F5DF-D939-4545-850D-CED49CE74CEF}">
+                            <File Id="fil1CEDE8C2844583869544683A30B77D95" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\divider.py" />
+                        </Component>
+                        <Component Id="cmp4C47E0E0DED4A4F91CBF71C81F4EF09E" Guid="{3AC907EC-4009-459D-B02C-2BE951347C00}">
+                            <File Id="filE446A2242417F0D634F181DF5AEB1327" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\imageview.py" />
+                        </Component>
+                        <Component Id="cmpC4EAA517E52E5BC0C3B138EBF0701B95" Guid="{B932213F-6F0A-4CF1-A2E4-47652A5454F4}">
+                            <File Id="fil030AC3F83AC2EFCB298548E0FF460397" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\label.py" />
+                        </Component>
+                        <Component Id="cmpEA362CE10BB6B1E8381A942B7FCE23A9" Guid="{8C0C9CA1-D0EC-4E8E-9A95-6D7FF87DA0BC}">
+                            <File Id="filAEE176399EDD4C9CB204FFB4BE064683" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\multilinetextinput.py" />
+                        </Component>
+                        <Component Id="cmpB4C58033DBD96F32EF93FD90B9FEB9D0" Guid="{BFA32993-2859-483D-AC0E-D0EA6061E648}">
+                            <File Id="filB270BE225A5CEFBBBF9FE22FCEB97A6F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\navigationview.py" />
+                        </Component>
+                        <Component Id="cmpAF581CE04BDE38B4FEB3BC47AD77B8F2" Guid="{B57FAC8F-923C-4BD7-8DDD-31FB4E9129C5}">
+                            <File Id="fil57F00191511CB4DE104ACC9E8C8DA626" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\numberinput.py" />
+                        </Component>
+                        <Component Id="cmp22315CA39D1E3966422C369026057EF5" Guid="{7D5F4FD6-4C67-40DE-A347-EA6C67E0BBC4}">
+                            <File Id="fil18644DD09BBDF287FE7B520B22F75BED" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\optioncontainer.py" />
+                        </Component>
+                        <Component Id="cmp548FFEC7DFB1363715E338B36FF8E02A" Guid="{8A74C923-09F1-476D-9BA9-77EDC2475B62}">
+                            <File Id="filB1B9551F7393F8B74B2C9328BAB79FF3" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\passwordinput.py" />
+                        </Component>
+                        <Component Id="cmp2526C66F96F3C1B3828DBBE80A718F39" Guid="{4D3B1717-D31E-4E00-868D-C8C2CE0AD758}">
+                            <File Id="fil49D7A277FA289435927A1C3F15FC00AC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\progressbar.py" />
+                        </Component>
+                        <Component Id="cmp1AE0628B27312E1A6B93314BF8679ED0" Guid="{29588F4B-E6FA-4625-962A-94EE1C9FE105}">
+                            <File Id="fil8E95BB6E0BCC4ABFD15D01A32FF78181" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\scrollcontainer.py" />
+                        </Component>
+                        <Component Id="cmp6D493F79E626C965FF90214114CE6485" Guid="{86B12BD8-3213-47DA-91B0-6148C4EDBE43}">
+                            <File Id="fil797E31B8FF1B991E51342B6AE5DC8136" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\selection.py" />
+                        </Component>
+                        <Component Id="cmp9AD1DA68D07645F88432F691501EEA42" Guid="{FB15A14C-98DD-45CB-9BE6-CC76721BC02A}">
+                            <File Id="fil0C125589E25BBC7037C30892BC85D492" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\slider.py" />
+                        </Component>
+                        <Component Id="cmp6688E4EAF25EA098EE9D68420E48BBD0" Guid="{E69E1BC0-3D04-4BA5-91E2-CB3ED02A9A13}">
+                            <File Id="fil5FAF45DADC5E582EAC23043F915D07F5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\splitcontainer.py" />
+                        </Component>
+                        <Component Id="cmp2241E9BDAC937FB2FB0C79C6A84C6A35" Guid="{4488942C-8705-4BB9-B1C0-B6786393DF6A}">
+                            <File Id="fil3FF1FFC1C6AA636A90F94A59B88206DA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\switch.py" />
+                        </Component>
+                        <Component Id="cmp2042E6B8F586D0F2A2AF586377D466FF" Guid="{D8A70A73-3125-4542-8464-5722F1685AB0}">
+                            <File Id="fil13CEE3F0A334A009F71AC835527CB7A2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\table.py" />
+                        </Component>
+                        <Component Id="cmpFDF0711DCF1A5EE1F4008367568A54CF" Guid="{635DDCE0-E819-425E-B41F-142EEBEC2205}">
+                            <File Id="filDF734943456AF12AB61028AC28962A96" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\textinput.py" />
+                        </Component>
+                        <Component Id="cmp5962C4C5365B803AA2FF203765FA7F34" Guid="{60498D9D-54BB-4325-94FB-771CAA319D69}">
+                            <File Id="fil21B9C26B625F468A255BF27D1DFE8045" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\timepicker.py" />
+                        </Component>
+                        <Component Id="cmp88DC4AD94E03F36B64C375985B35A51A" Guid="{30C16C56-E90A-47E1-AF7A-1ACBCF2FBCA7}">
+                            <File Id="fil6957F7D9AFF9692035E9A83B9E7D42F0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\tree.py" />
+                        </Component>
+                        <Component Id="cmpD16BCD14351F4D2C89D31ED0A7A68B54" Guid="{74E9FBBA-61ED-4D56-9A1E-58689348BA59}">
+                            <File Id="fil41A308E06DBA551DC3CA30E86E47D933" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\webview.py" />
+                        </Component>
+                        <Component Id="cmpD8C9CE7BB83049FF13CECBBD45CCF6E9" Guid="{7292AC6D-6352-40AE-BE02-F3A7E55D8D1B}">
+                            <File Id="filCFE44D0AFCC8CA35BB64B4F6B9E15E5F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__init__.py" />
+                        </Component>
+                        <Directory Id="dir3639E02F31BE0C6B7B2E0A67386D1AE2" Name="__pycache__">
+                            <Component Id="cmp21D6D125687F983B5600BB83ECF6DA89" Guid="{ACADF3CB-09A8-4B45-9A2E-0F05084942D4}">
+                                <File Id="filE6B3F0E9D660004D909AA13BDAEBD17E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\activityindicator.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp0D3DE45ADEB21DC5D644F5880AB5FBB4" Guid="{D3CD428A-C38F-43C0-8F89-C09AD0F86821}">
+                                <File Id="fil81F3294CE7DD46675E24B5340117174D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\base.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp51351ECA120BEBFCEEC980F3D4683F91" Guid="{1625CBC5-1F36-45F4-887B-93DE46B2D599}">
+                                <File Id="filE8CC5F80B08F32A93986D86538DE9F82" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\box.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp07B6D86F8408D737D6518B5789AE3F8B" Guid="{88590FEA-FC4D-4A57-9D53-D842362330A2}">
+                                <File Id="fil5DA17391D54B3770C4C9D7AC488EFAFA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\button.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp1B311CBFC3F99A6737FA119752AF20C2" Guid="{4AF7BCD3-5ACB-4BBB-A7F0-C373D4CA30F3}">
+                                <File Id="fil614EA2B6039436C4DBEBD29C93833353" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\canvas.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp2D87905CEF9FAE79E0996E3D7BCF06F5" Guid="{824B2E94-EAFE-47C7-8843-54CE040336B3}">
+                                <File Id="filA65D6C3AE9706875ED045BE5704095BD" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\datepicker.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpEF2908834C470CD54D004A5E4A1A403E" Guid="{DB56593F-6DFE-43E7-818B-EC0203CF4275}">
+                                <File Id="fil8EE2248E9C18D44B7A4002C17B37B8F1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\detailedlist.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpC3CE51C8B77E02308FDECDCAFA3FE3CA" Guid="{631C81E8-DD92-441B-A08B-3BB8E209DA34}">
+                                <File Id="fil5D26F819B5F9B36F3DF79BA9897224CC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\divider.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp725CA8B4AA315698AAA5019C27C2029A" Guid="{FCF80F35-F0B2-4C7F-BD8A-C22BA9DB1103}">
+                                <File Id="fil10007DD1D8168AA2E428ACDFE068456B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\imageview.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp912CCDE147E133D6B9D356B805A10A9F" Guid="{7E4603CF-C48F-408C-BE23-ABC2F5503C1B}">
+                                <File Id="filAC26DC1C8D9E6E122586AA18613C629C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\label.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp766A914744B3FFF173DC8E6AFC4F9E86" Guid="{69A8225F-8663-4B2D-8172-C0DC198206FB}">
+                                <File Id="filF34C8D9BD55B03597C7E91285B18B99C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\multilinetextinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpB648C1B74A96733B234252F639AE76E2" Guid="{945CBF04-24E8-46CC-99B8-ACFAE0BD9921}">
+                                <File Id="filA4D9BECAE587B9AF00616F31AD5967C6" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\navigationview.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp59D937043AE2EEB2CF5DAA46BC78A885" Guid="{42C8EF7D-9DE1-42A0-8389-7827BD10ACE7}">
+                                <File Id="filBF6F9EAA905E68DB2517DEC8C32E61EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\numberinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp9729E20DD6E458208CD41AAE96729F76" Guid="{943C1247-6B94-4F7C-B242-C5F0411A73EB}">
+                                <File Id="fil82DC1FD6DE1B6BC4EB7E7A19271992E5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\optioncontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp37A80F103BBEBDD0F7C4BF6541C5AAE1" Guid="{9B5D3693-EB2C-46BB-B69B-293C6CA0466A}">
+                                <File Id="fil11B1BC0CCEC90D03D43FA1DBC01B0B36" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\passwordinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpF296E50616E950F631A2CB088A79B2DE" Guid="{1CDF9CDF-462E-4853-9F2F-C2839EC48BB3}">
+                                <File Id="fil1825130260FE37642E2313B7E8F6F503" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\progressbar.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp0E06C36EA6C7BA2669C568036DC38C05" Guid="{0F35FB27-2C27-42CE-BDD2-9871E15BC958}">
+                                <File Id="fil8BF63E112FC5AC538879458271CC1E49" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\scrollcontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpED9DF9B532097465FB87C207B60511D4" Guid="{BF59CEAD-2C96-4DF7-91FE-D213AD9DD8E6}">
+                                <File Id="fil36F6E8730FBCB297ABC9A58A0179A710" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\selection.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp01388BC265495B49ECE4E72B1BE639D8" Guid="{1459AA41-E8AE-4191-8654-EEFE22F9AF81}">
+                                <File Id="fil6388F371384287C8F7FAC730B858F26C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\slider.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpB536E8C772F88301F267592E2F42DB2B" Guid="{3ED6081E-186E-46D8-AF50-77F9B3844468}">
+                                <File Id="fil35962733FC3B27A0C8796C0BA9495255" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\splitcontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp694930F88888EBA7DD4D637C414DBC3E" Guid="{0BBB0C71-F94A-455C-8D94-5AE7BE6EC024}">
+                                <File Id="fil24C6D9D4D8EE8BA244D8F7DE164DD3C0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\switch.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpCB90AD857DB9FEBE947E28ABB1A5A753" Guid="{FB4042D8-9A30-494B-9729-EBDADEC25530}">
+                                <File Id="filE83BC3BAEC2470CFE9C5A024C2E90A90" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\table.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp2D21B165795D738460410B6183E829F6" Guid="{DD51A81F-7534-4662-8B8D-254ECE3ECCE7}">
+                                <File Id="filE6826A4EB93661CE12C98548C2CBDCFE" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\textinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp2133F812AB1A28BEEFC5DF71C9FC648A" Guid="{3CE173B1-F7BB-46E2-BE5C-32B43CC61556}">
+                                <File Id="filD2B48D4A968FA7859F456F634EB0EC12" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\timepicker.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp52EF6F56B94657127E31FEE9168F94CF" Guid="{C1B53D00-926D-4DBD-BAE6-72EBA4AAF065}">
+                                <File Id="fil8270E3EFEDC90AA7A21A22B150C490EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\tree.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpD91D729A1192914C0B2DA328F930D797" Guid="{76B48122-98D1-4122-B580-7DC829CDE460}">
+                                <File Id="fil3CAADB4715BEFBF6DCF5695D50EBD32A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\webview.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp06E4619976FD93E7BC936CD16645CAA1" Guid="{6841D32F-D1C3-4729-9CF5-22489AD68976}">
+                                <File Id="fil2AE1847D0CDDAF6AD9C7A4AE62D2C061" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\widgets\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir98F094D962C0856316195614912C684A" Name="__pycache__">
+                        <Component Id="cmpE509E863F72EEA8214EF76F0C3B637F5" Guid="{ACF737C7-7059-40B2-82CF-3964AE636575}">
+                            <File Id="fil24DFF353D2380BC8F51572B6E1ADCFFC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\app.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpCA77A96E4D9B43C187D9DE7E0BB1412E" Guid="{AB94AF92-5C1F-4309-98AE-1EF156FA6507}">
+                            <File Id="filD080742C989119D98F4F9513633812A9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\colors.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp0F362B4648C6CA37BA2BEE9E99984C29" Guid="{6C33F207-FDD4-40E7-8828-59692A5A71B0}">
+                            <File Id="filD614DF537AD86A52BB233B304D060D93" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\command.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpB99C9D751B33FC48AC3F8BA9F5DA1A67" Guid="{D0627BEF-22DF-490D-99D7-6CA85E3AAC02}">
+                            <File Id="filA49A4910C587A97DDCE1512AFAF4387B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\documents.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp4D940008B27E8E68868505E3EA217A56" Guid="{D607B8BE-1902-4D92-855F-EB8269CE5283}">
+                            <File Id="fil906C9AA914F9E337732E2807B15B5E34" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\fonts.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp2317AB47584B38BC3046DA68B138012B" Guid="{8DEA71E3-8B0B-44AE-A4FA-82100AF54A57}">
+                            <File Id="filB6636E9623B1319F08374DB48D21AC9E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\handlers.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp31F37009D38AAE12827ADCF75E74D773" Guid="{AE13B856-164F-4B87-8D63-B1EF97C0C22D}">
+                            <File Id="fil299FD11BADEAA7E1D40E77EDC8D8CCF1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\icons.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp1BDBDDAB3CA9C61DA3F9731EB46D3D60" Guid="{B1B464A7-2272-4591-96A0-C0DF7C2A7560}">
+                            <File Id="fil4DDF783019FF4CC71FAB197A2A9F45EB" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\images.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpF6E0EEF781D2D593B2273F271B076D8D" Guid="{C67DFD18-486C-47AA-8178-30FE6E04A93E}">
+                            <File Id="filDD47DD606C20A9550933C36104655A2C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\keys.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp2958E89E5F343BB66E0F446633D85A7F" Guid="{D0F19211-4E6D-4F5F-871D-D184D637A26F}">
+                            <File Id="fil2AEA6404E494A5D0A31FD3F51E07E4AD" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\platform.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp63CF4879462936731B21D2B4F0BF32AA" Guid="{867C6443-D1B7-49B6-B363-654BA58C9986}">
+                            <File Id="filF235F19875D9A0296ABE850527693D7D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\validators.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp1EE69C3B352D4AD503BCC086BA436B30" Guid="{42F576EB-6297-463C-A6E1-9753D67C7636}">
+                            <File Id="filE79D054817AF73D316FA034EC9F83BC0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\window.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp7BEAF2BFC23AC4BD6B697D1E8640EA12" Guid="{E36D30ED-510D-4CEF-B907-65FF96A8DDE8}">
+                            <File Id="fil4D7C39B5DA14F1ADFA8C4688DD9FB970" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga\__pycache__\__init__.cpython-38.pyc" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir3064656FB62F2F3181D9A925A09F22F4" Name="toga_core-0.3.0.dev27.dist-info">
+                    <Component Id="cmp385E283D678BC127B932102E0918E8A5" Guid="{6CCB9027-6505-415D-BBBB-F2E67EFCD81A}">
+                        <File Id="filA31EFF686699086143B39775EA7DCDA0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmp7F18BA83588A7B89BBFC816F6C3E5C35" Guid="{8EF51CEB-9E34-4E27-90FF-0B4725D4A402}">
+                        <File Id="fil06A1BA2ECD0950F937DA0D27FE6D6EF2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\LICENSE" />
+                    </Component>
+                    <Component Id="cmp21EE1246B7CAD395F1CD56855B6AE19C" Guid="{E168B14D-DD88-4991-99EF-EC4E47A9D968}">
+                        <File Id="fil5DB7879A662CBD98224D72D9A00033A6" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\METADATA" />
+                    </Component>
+                    <Component Id="cmpD86C258BBFADC63507974CB4C611F4B9" Guid="{7F0B05CE-3EED-49DE-AEEE-11522880CA9D}">
+                        <File Id="fil1F34EE4A189A6822478B3E51997530EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\RECORD" />
+                    </Component>
+                    <Component Id="cmpBE5802837E00C22FD70307E0BC61554B" Guid="{A56BA362-BDC7-4E59-B214-A6B3714D6439}">
+                        <File Id="fil5E677736419F1D4EB7E242B4A8DD20BA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\top_level.txt" />
+                    </Component>
+                    <Component Id="cmp7737BD65626626A4959E626C21C3DAE4" Guid="{0867E825-C06A-400B-B828-2A08F91326B7}">
+                        <File Id="fil4AA83936D9F4E1B343022D028D335211" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_core-0.3.0.dev27.dist-info\WHEEL" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir113A2FF844E4D85E14789AFBCA8C5454" Name="toga_winforms">
+                    <Component Id="cmp0F60CA466A4A8079629B3819AE907AED" Guid="{62C53DCB-364A-44EA-8CF2-5B68587D7743}">
+                        <File Id="filC0BE86C263F695010DB1AC90CC2C1824" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\app.py" />
+                    </Component>
+                    <Component Id="cmp534512AB6C5B3B4F613E7AC0567E32A8" Guid="{F89E5654-0642-429E-A296-BB2E9940FA41}">
+                        <File Id="filA6AC08801C7CF7D55D5F1B2226B8FCAA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\colors.py" />
+                    </Component>
+                    <Component Id="cmp6B5133F0DA352E01A143A2F1BCFB979C" Guid="{7AB41ED3-0730-4001-971A-BD4FC7536242}">
+                        <File Id="fil62B8848C1A09BC2ADE2266A72E178727" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\command.py" />
+                    </Component>
+                    <Component Id="cmpA87EFF795B4F663430746F112C7C155F" Guid="{A1245B87-7D4A-41BB-B002-3BC9FEF3F5BB}">
+                        <File Id="fil3EFA20C1ABAD2E1CA05A17C5B0629D5A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\dialogs.py" />
+                    </Component>
+                    <Component Id="cmp7919FF3516F53D5D4A7BC756702DF6E5" Guid="{59368236-B6F4-42EE-8D40-B0B7D3E6B93A}">
+                        <File Id="fil010E3F5C2491A0A8CAEE6F90510E7CDF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\factory.py" />
+                    </Component>
+                    <Component Id="cmp6E020E787EEFC2BFA63805A9B4655BF3" Guid="{D5EB551B-0D64-4CD1-BDC7-CDCE16748B86}">
+                        <File Id="filDCB4E98409EC518AF2884E38D847EEBB" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\fonts.py" />
+                    </Component>
+                    <Component Id="cmp1E6443CEB6D1D187F2572048354E7242" Guid="{E7AA64BD-A561-4BD4-B474-4C1A08CCCB39}">
+                        <File Id="fil33A98E3B28F0F029699D0112283BBF3C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\icons.py" />
+                    </Component>
+                    <Component Id="cmp7012781FEBA71BD0192142E2102C711C" Guid="{23D028BA-7069-458A-AD7B-080C9E078C0A}">
+                        <File Id="fil8C0BCC55877E180AE4C3B1D5BAFA40BF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\images.py" />
+                    </Component>
+                    <Component Id="cmp7F12338A795DA9538E88D77A0ADD2137" Guid="{B41CD5CE-9AE0-467F-A0FF-2038D67E7E01}">
+                        <File Id="fil3781C21BD2369CD5B7E6796C0ED0667A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\keys.py" />
+                    </Component>
+                    <Component Id="cmp366E25969348CD601DDDB29407B41023" Guid="{1C1FAFBD-73E1-440B-92FF-B89379175B81}">
+                        <File Id="fil1D2BAD2EF870D2CD48606A6C2013D308" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\paths.py" />
+                    </Component>
+                    <Component Id="cmpEF90B07010B8F44D8CB2983AD76E4402" Guid="{CDE7DBD9-E7D0-4F26-8233-C19D476002EB}">
+                        <File Id="filBB3376C0A2401C252F3B53BE551F9AC4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\window.py" />
+                    </Component>
+                    <Component Id="cmp7D0E4549B4EE16C4E9081EC49C0A6D26" Guid="{1B14FBBD-40D3-425F-98F8-9BC069A231E3}">
+                        <File Id="fil5E5BC25FB3BA01F73581738B5D434CA7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__init__.py" />
+                    </Component>
+                    <Directory Id="dir51AEA252ECEAEC45D0FE16DC52B8DFCD" Name="hardware">
+                        <Component Id="cmp75B69AE38DF9A609B9046F54B9ECC34B" Guid="{0149785D-BA6F-4F76-BD1B-4D8FB73E4E54}">
+                            <File Id="fil95740EA1FDF2FBF0168945F97551C158" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\hardware\__init__.py" />
+                        </Component>
+                        <Directory Id="dir84A8FD1324CE404950DEDC38913850E8" Name="__pycache__">
+                            <Component Id="cmpF25E52028AEE4AA15AC0D2D0C3A6B861" Guid="{FABB556C-8A30-4048-A53B-6A6BF035B03A}">
+                                <File Id="fil04649D40AFA9FC93628E7AE1205C1F47" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\hardware\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir2BC172EF8490F2F2DC3A67050C1C7CF2" Name="libs">
+                        <Component Id="cmp90B0118CDE2823639A86F01C692B2FF3" Guid="{2749FF2F-723C-41B8-9D0F-10934D962F6B}">
+                            <File Id="fil17E7B52DD1DAB27550E6172CA1AD2D74" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\fonts.py" />
+                        </Component>
+                        <Component Id="cmp90274EF54D17F8A512D561E18E68422F" Guid="{AB87E4C2-5D2B-43F0-98FF-E9614C26F0AF}">
+                            <File Id="fil1B0E744A198B08EDC404C304F42CB719" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\proactor.py" />
+                        </Component>
+                        <Component Id="cmp6789C6D4D84F3DF37948C3A570525DAA" Guid="{5FC82342-098F-4565-AA90-939334593BB5}">
+                            <File Id="fil50DEA7D5D9EE5EE822C7DF8B6DDE112D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\winforms.py" />
+                        </Component>
+                        <Component Id="cmpAB91B5FF76D569243C5001E645B4E2E2" Guid="{9DCC9D38-3AF6-44C4-810C-0B1BCA5397BE}">
+                            <File Id="fil277C79E8C615ABA02E3E05A60AA0BA0C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\__init__.py" />
+                        </Component>
+                        <Directory Id="dir78EF3E2F475096207FBAF86DDECCD115" Name="__pycache__">
+                            <Component Id="cmp1AC114F63A42E138821CD2519AE4B81C" Guid="{3B9CE16E-79F8-43F8-AA8B-2C78BE77487E}">
+                                <File Id="fil74650510AB2735F15F17AD3EF49AE05D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\__pycache__\fonts.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp162401D0F4AC4AFF72C7C571B95F10A4" Guid="{597E2852-5D51-405C-B16F-6623855CEE15}">
+                                <File Id="fil82CD58098A88EF263591A8588A414381" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\__pycache__\proactor.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpF6B433B9F629D8D3BA4A2525CF3188EC" Guid="{3350D56E-6158-4E32-8A2E-2A4FF4D55515}">
+                                <File Id="fil690185A44CB67BBF03F734CE151C5CBE" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\__pycache__\winforms.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpAA626858AD29E5D2DA95EA9A06560A16" Guid="{0BC6C8F4-4E1A-41B4-98E6-F3D745CFC85B}">
+                                <File Id="fil013290DEAC6BFA2CA2245D822DD4CAE1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\libs\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dirCCA7D0094DA6E58F0BA9E77DBFEF7DE0" Name="widgets">
+                        <Component Id="cmp945A31B9D3A23F18F680541CA55A9C02" Guid="{C2C2375A-B55D-4152-809F-24180F0963C4}">
+                            <File Id="fil18797B254C47FDC6571E0F124908FCA0" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\base.py" />
+                        </Component>
+                        <Component Id="cmpBACCCC07969090AA27AECA173D96F8C9" Guid="{93730F9F-AE1D-4E93-99EE-2833168A641C}">
+                            <File Id="fil6985EF6FC16CC08C78DC0C33556C6694" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\box.py" />
+                        </Component>
+                        <Component Id="cmp99445A26F0C3B543617D5BD906D789AB" Guid="{17786BEE-6348-4A72-8480-19E072AC1308}">
+                            <File Id="fil801A3354FED3B9F3962AA567DAB946D1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\button.py" />
+                        </Component>
+                        <Component Id="cmp749B0B2C2CC0FB3B70E88A509F2E0704" Guid="{11F75F6F-6296-46AF-8983-5A569403B8F3}">
+                            <File Id="filC6559C69B4275B8854C5F29C5DBC8A86" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\canvas.py" />
+                        </Component>
+                        <Component Id="cmpD5E2151131F2A417E99CBB3F5DD0A541" Guid="{B39B7A0E-7D0F-4AE4-A81E-B04003A614B2}">
+                            <File Id="filF59D0F3242ADBDA87AB8E70C3CB00441" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\datepicker.py" />
+                        </Component>
+                        <Component Id="cmpDACCCCD8C03573ECBD75E9C28DF46386" Guid="{51DFD62B-BD1C-4BB0-B82B-0B9B4CF02827}">
+                            <File Id="filCE5FE2607D34551A8F526BCAD90C66C4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\divider.py" />
+                        </Component>
+                        <Component Id="cmp8201955D8814261FA7A20FBD4041B928" Guid="{31AC5429-12B4-4670-B6D1-705A3340E0E5}">
+                            <File Id="filC74652A849285EA6020AE2582329FF87" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\imageview.py" />
+                        </Component>
+                        <Component Id="cmp40BDAA9B3B0C4FEBE9D05CA630EDD89F" Guid="{6D8B0AB0-E8F0-4B19-9FF2-18116DEDB674}">
+                            <File Id="filB746C0F7408D0ED64133853DC4ACA455" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\label.py" />
+                        </Component>
+                        <Component Id="cmpD59FAF5AB03FB3556B1DDDA31432FB8B" Guid="{843F9A9F-E5E9-4683-856B-A967F5A2B438}">
+                            <File Id="fil492D34E7EB94D7AAA9A6C20973EC216B" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\multilinetextinput.py" />
+                        </Component>
+                        <Component Id="cmp999CEFA321307385751EEF62DC2E1858" Guid="{711660E8-73C5-4570-8BD7-84C6CD5F5831}">
+                            <File Id="fil8A35D67A873B44E25C694A3C2D540383" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\numberinput.py" />
+                        </Component>
+                        <Component Id="cmp40993CD2383327E289D72CAF710F5A37" Guid="{9A35FA4A-8ED8-47B1-BAFA-A13CD8022B71}">
+                            <File Id="fil8817C122D06A679643178344BD2ACB95" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\optioncontainer.py" />
+                        </Component>
+                        <Component Id="cmpC91660EEF1A3CC61DB47EFA11E376332" Guid="{21AB3B98-322B-45A2-8535-E20BE9F3D764}">
+                            <File Id="fil048250A5AE1ACE767172328891996F7E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\passwordinput.py" />
+                        </Component>
+                        <Component Id="cmpAB7297B26EB855AC64BCD81E38FA3768" Guid="{84638B3F-C22F-4D04-8187-76F0BB76E020}">
+                            <File Id="fil67251242F6E26203D7FB93DEA150F157" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\progressbar.py" />
+                        </Component>
+                        <Component Id="cmpD2259531815AE4D156AC791F5FDA4642" Guid="{242C14E3-A6D6-49F1-9DA3-F8A65EFAF774}">
+                            <File Id="fil46F1FA93E9419A6A9F81040B9E79FCE2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\scrollcontainer.py" />
+                        </Component>
+                        <Component Id="cmpF80223C11807CF252904145283658C2F" Guid="{8A689333-E2F8-47D7-AB0D-A6B872ACFE98}">
+                            <File Id="fil7CFB9459F00472F7381BB7B692F1BC8D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\selection.py" />
+                        </Component>
+                        <Component Id="cmp6F1F000CF62BBD04E157D26ADA001F3C" Guid="{DCDFA788-ADA8-45D3-854E-E8917C330E3B}">
+                            <File Id="fil67F0D1A74049D98329606CE0AA64E452" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\slider.py" />
+                        </Component>
+                        <Component Id="cmp84D70DFDED76FF721E8566BBDA9F900B" Guid="{502D5F99-FE5E-4801-BD32-5A7ACCC91B16}">
+                            <File Id="fil42B6EADECFDE60389BE2E09C69810DEF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\splitcontainer.py" />
+                        </Component>
+                        <Component Id="cmp286EB8218D712958BDB65CAD85AF56FE" Guid="{6D03B87C-FD99-47C6-8D86-2F899ACCE412}">
+                            <File Id="fil87B7E9AD2488B97D9FC9EF0AE0609107" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\switch.py" />
+                        </Component>
+                        <Component Id="cmpA341394067A9CB32EBCEB7FCCDEA3B76" Guid="{4C21F0F1-B028-4394-B5B9-0DFAADFA5F49}">
+                            <File Id="fil6884179415AA315FC0FD7007CCEB154F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\table.py" />
+                        </Component>
+                        <Component Id="cmpBBAD7BAF623E289C175DC007F2B9BB6E" Guid="{6EEC211D-7089-44EF-9DC6-D999F091E101}">
+                            <File Id="fil5E49B86F0310A5B8313D6912DE843FB2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\textinput.py" />
+                        </Component>
+                        <Component Id="cmpAF6BF742AA652D914D61001D1B015403" Guid="{445612A8-52B3-4201-A954-4E4198BDCFAD}">
+                            <File Id="fil56EBB126A6BF84FE27C0096AA1B34A18" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\timepicker.py" />
+                        </Component>
+                        <Component Id="cmp5D3ED49DBFBB071BCFAC26DAA1C0B4DA" Guid="{6DC4824A-91A7-4B2E-94CF-598F99F91F48}">
+                            <File Id="fil5E7F2634598C7E66B93C158F4C0DF2D1" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\tree.py" />
+                        </Component>
+                        <Component Id="cmpF41D990EC10F60A98A0614337AAC2E37" Guid="{12745A78-B655-4987-A780-A00969657EAB}">
+                            <File Id="fil2AD442EE08C19F86600BBAB3C81790F7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\webview.py" />
+                        </Component>
+                        <Component Id="cmp95A732ACED37293821B4FD483F45091E" Guid="{462BD90C-BC0C-43A0-B50A-A37BED86AF88}">
+                            <File Id="filDEB20DD032BEF68C998887C0F6F84F9C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__init__.py" />
+                        </Component>
+                        <Directory Id="dirA2D57A766F05D61D97CA7FD515F41CBF" Name="__pycache__">
+                            <Component Id="cmp2CF405D1A86AB8EC55393EE82A97DFB4" Guid="{860F0F24-7357-49D1-80C8-0E1EB06FBB4A}">
+                                <File Id="fil8B032B941CADB77E2624EF0C7E38098A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\base.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp07AC11F3366000D0E329D17D68A5569C" Guid="{4DBB8396-A3EA-46F3-B5E9-DD7F0938145B}">
+                                <File Id="fil3814663C8D38E6F529A157A7125B25CF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\box.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp5A1DA9008B872A769AA3AA324926D7B8" Guid="{E3A95A76-8B7D-46CB-AC7E-B0645711EE0A}">
+                                <File Id="filD480C104EB3AB074092CEF6588CA1E18" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\button.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBE34873B8FECC3B5D464542C69BAFC61" Guid="{9001B1A9-1287-483A-8EF4-51F78DAA16DA}">
+                                <File Id="fil6863A8E1ECFE51B3059BAD5EBC808AB8" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\canvas.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp324961AE8432A47962432A6D383B16EB" Guid="{4F7C3BF0-763D-4C6B-8271-2114C1174B6C}">
+                                <File Id="fil630EC97B64D6E9AFCFCDE0C44558E907" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\datepicker.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp975A42EDCA298E7633D30C621307C300" Guid="{2182300B-AD97-47AC-A828-6985E85CE8C8}">
+                                <File Id="filA31F5C9238127CEA43CEB5EBEABB5C6E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\divider.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBEDA1D663145476BC184683777A5534A" Guid="{971C8337-4671-4D64-B228-DF29F3B8C291}">
+                                <File Id="filDB6D507A4A84283473BB40FD615A4345" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\imageview.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpF4F889212B58545558F5A74F3405A209" Guid="{567A8528-D28F-4D4B-AE39-BCAE3DD00A9E}">
+                                <File Id="fil519D832D27EE00972D08452F1DC6E438" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\label.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBFD0F102DABEB70B8085F6C0AC82335C" Guid="{9D5BB81D-8509-4A97-85D6-30C3BC5CADD8}">
+                                <File Id="filCC2C61BC6147BE5B390E262E0E1B2B81" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\multilinetextinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpA5AF14BF271D7241DF257AD23DB7868B" Guid="{8F391844-E112-4024-BD2E-B6E21BBB38E9}">
+                                <File Id="fil949399F7A2D5AEAB4590E5487DF89E47" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\numberinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBF9712E7CB1321D157048D558FD00D12" Guid="{F7028ED6-B125-4A6E-90AE-0E4B8879F804}">
+                                <File Id="fil9CEB3F18144CABEA71ECB80B1F6209EA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\optioncontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp44517ED04C445E98A6AE68D12AEA6314" Guid="{EF3DC893-5E46-4414-B8BE-C7262AA63660}">
+                                <File Id="filCC2FFFE543AB5CD2A0337E07331F48EF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\passwordinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpE1CD5C960632321D89F91439A80A9FD3" Guid="{99C77A4C-D9E5-481C-A7B4-210493775E2B}">
+                                <File Id="filC368CDB1BAF025CB66214A408F5265FB" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\progressbar.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpBFFEF548C35B8AD87D64DAE12E427D00" Guid="{2B3EBFFE-4B71-460F-AD06-463F3B770A57}">
+                                <File Id="fil7C35365BFDC5D71ABED40CB59121C671" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\scrollcontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp56F330C017D66E9754D8068856354521" Guid="{ADFE26E8-9773-4DF2-8BAF-2F194F8BDA7B}">
+                                <File Id="fil1583B9718257DEACB48A2C6A3AFF87E7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\selection.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpA5E54F57663DBA5EB1AD4FF8CB854FFB" Guid="{6FB6338E-8954-4D62-BACF-2B4DA25B9351}">
+                                <File Id="fil14BAE0B27E2DB32F7EF099448E668090" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\slider.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpDB761C2A23416D0D0CEF3A900B8941FF" Guid="{E27C509D-5275-448E-9950-2B54D2DF8BA6}">
+                                <File Id="fil9E30B7BAD51F0EA27D430C832B5FE7B5" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\splitcontainer.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpDC904D87AC79BC2FDB2D09F11F1F1311" Guid="{F60E4057-84C1-4383-BA8E-57178D49E3A1}">
+                                <File Id="filAEF29BAD50E4876CDD949A69C19F92B4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\switch.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp313194EABBFFAB94EC6B8FBF59A79ECB" Guid="{55357B47-9073-40C6-9229-39C9E71FAA69}">
+                                <File Id="fil89543741E2D0645D1594CB77427A1BBD" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\table.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp5A2DF10DDC7AABAF6CD8DF28CEDA2685" Guid="{53860659-58C7-4C6F-AB71-95421B91415D}">
+                                <File Id="filCF5CA305B61F40D678F4B414DA50196D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\textinput.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpAFA6BC3857C6F01FD6B0EA9A15746E7A" Guid="{1EDECDAA-6BB0-4772-9FE9-3E486CBBC2C5}">
+                                <File Id="fil37CBAB4ACA07E28A71D95E2BADC7B4ED" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\timepicker.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpEEF2ABCBF9C05C50939E81F97796668E" Guid="{06B3BD81-37D4-4678-98A6-04B8F71AB8EB}">
+                                <File Id="fil3E8110FEEF3A4BDC31D0107EC9A28893" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\tree.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmpCC50F6CCE680A319F8C8C1C59796A836" Guid="{4105CD90-7725-4639-AE51-C5C14083B829}">
+                                <File Id="fil5D0A68CD0EDE5B7F780C8B9A71279FD2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\webview.cpython-38.pyc" />
+                            </Component>
+                            <Component Id="cmp34533C272C0B8538126392573B06D1CA" Guid="{56E16345-33AE-4977-BAF3-908A8DCEEF87}">
+                                <File Id="fil6AFCC416775CFC7604C1A6264A21ACC9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\widgets\__pycache__\__init__.cpython-38.pyc" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="dir44DF9C9B9E218D3572FB90E159E06069" Name="__pycache__">
+                        <Component Id="cmpDBCB193CAB8437CD7E0D9E2E259A9F77" Guid="{5D3C4172-E2A4-47D6-B87A-7EFE91A7887B}">
+                            <File Id="fil65142935D99FBAD08AB8558518894357" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\app.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp29C5DB78B2969D459C7775E147C5D836" Guid="{A86163A4-0716-4478-9DF4-A5C3611CD49B}">
+                            <File Id="fil9C00EF9F46CB63ADC88E0061EA5F20DA" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\colors.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpE3F3AEA97D95F06169D517DCF450C9ED" Guid="{766D1E1E-794A-4517-8ABE-A2619536EBCA}">
+                            <File Id="fil8C90779AEDE38A9634D2111FE1B863BC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\command.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpB593F6F881F6BC5E3BDF8ED3FD5A221F" Guid="{0844092A-D4F2-4A7B-94C1-9EACA61956E7}">
+                            <File Id="fil77663B74E0E204043746369D27F01085" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\dialogs.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp66FDEB20D17BDDD593ED0D088D51A367" Guid="{D53002A6-C78D-4BD4-8D0A-330DD3653B7A}">
+                            <File Id="filCD7E49C8CA09910DBBC00F7CDEE8FACC" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\factory.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp45420D959EC0CD5E714BC68B7C5CDCA1" Guid="{E709A889-CDA8-4670-91FC-30A3525B67E3}">
+                            <File Id="fil7B5975B4CC86A3AEAFCBBAD8F72E939C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\fonts.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp71BD0B64BA9B3E7A2F6DAFAA48D76F92" Guid="{00916EA7-F46F-486D-B11D-27E83D72E868}">
+                            <File Id="filEA4956294B329F607389BB88C1B6A41C" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\icons.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp008B65DBEEB6B0CC8A61480167922D7A" Guid="{6355FDE9-92AB-4359-885B-92CC7EBB9192}">
+                            <File Id="filC3DF248982A902DF4A04781DB40FAE38" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\images.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp303394CAA1C6178419A7513A9A406C84" Guid="{5E2E4A85-C70F-4A31-AFE4-8905073DC7EC}">
+                            <File Id="fil55226376A5DBE504C0377C0D1FC0A68D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\keys.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpD8C9EFB9F6CAB91ABEFB4D331AF40C57" Guid="{D45FC2C7-ADD5-4471-99CB-4FF942C48695}">
+                            <File Id="filFB4AF749CC7A5E30BB517EA94AECF285" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\paths.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp97292FCBC07C700A3DF3C83F3CF4E16E" Guid="{06AB1435-6BB5-4EE9-9C6B-B6C14C75AACA}">
+                            <File Id="filFFD940E68B0B3C5786D3CE5EF08675D2" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\window.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpDCF43E6B1AE5C28416A95C90F7BA4F1C" Guid="{7F234830-FBEC-4920-94F7-58D2ECF8B4BF}">
+                            <File Id="filC91F22F5DC5F3C7C767DA1D4E727C863" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms\__pycache__\__init__.cpython-38.pyc" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir77218EE771B1B3BAF7B66C921F6D623D" Name="toga_winforms-0.3.0.dev27.dist-info">
+                    <Component Id="cmpBA1F514C4133194024D57E1A09CF91C0" Guid="{0059D32B-8EFF-4DF2-BC58-65E475787A73}">
+                        <File Id="fil2F2E00A2B398D9C6CC2427D242FD5B22" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmpA2BA4A3A6AFF52EAE80CDE2C81132E1C" Guid="{B311A190-8089-4C31-9790-16B322BD4F7A}">
+                        <File Id="fil954032E83D349FC16180711E6AB7D45A" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\LICENSE" />
+                    </Component>
+                    <Component Id="cmpB1ED4F3328F2FB64F27C12BEAD4B1ABD" Guid="{7BC62808-7951-47F3-B85E-5499AB1CC51E}">
+                        <File Id="fil7826EB1885AE084567940C38F92693B3" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\METADATA" />
+                    </Component>
+                    <Component Id="cmp0B4477FCDF32E9C84DA0ADFA578CF358" Guid="{9237F009-D0CB-40EF-BDB2-6ED4DAA31B83}">
+                        <File Id="fil068D685EF2085FFBC2D02CF4569717B7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\RECORD" />
+                    </Component>
+                    <Component Id="cmp726F057C81ACB10EE79A62BA62714274" Guid="{70B2B1D6-4742-474B-96BF-1184AF61BBD7}">
+                        <File Id="fil65C3423FEDE85C448E5A5CABBAFD10BF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\REQUESTED" />
+                    </Component>
+                    <Component Id="cmpB4815368ED3523D3C45875BD66420099" Guid="{6D97FD5B-2497-4959-AC52-045555E992E9}">
+                        <File Id="fil7FDAEB996ACF6F3353EEC3CFEBA6360D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\top_level.txt" />
+                    </Component>
+                    <Component Id="cmp73868024D68361635EA06A7E4A97D1FC" Guid="{C3296E7B-6A61-478C-9935-3AF35E16005F}">
+                        <File Id="fil0B807E4A035727C8C4A7254AD8F840DD" KeyPath="yes" Source="$(var.SourceDir)\app_packages\toga_winforms-0.3.0.dev27.dist-info\WHEEL" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir5125FA1E96A9017634AB06C6BD994E8C" Name="travertino">
+                    <Component Id="cmp427FADE2328DA9DCE765F07A0296D3A9" Guid="{9F64024F-175D-4903-BC59-1569913C382D}">
+                        <File Id="fil16EFE04B7A38587C2BC42D06106FAAF9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\colors.py" />
+                    </Component>
+                    <Component Id="cmp76F037B58E4114E67991C22E32B9D870" Guid="{678190F9-F5E3-4E26-877E-2F254F914777}">
+                        <File Id="fil4E8FEAA420EE11886A3E0954CD0DE192" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\constants.py" />
+                    </Component>
+                    <Component Id="cmpFD0FFE76D30B5FA35347CF7DFDA8D54A" Guid="{80D02E78-4157-4ECA-BF77-7E77BC307E93}">
+                        <File Id="fil1E27D3DFE0A0CD9140AF05B431DD1BE7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\declaration.py" />
+                    </Component>
+                    <Component Id="cmp33F4457E195CEEA891B597E23E35A101" Guid="{10EE8C3A-A498-44EE-8884-1A0A360CB0D2}">
+                        <File Id="fil2A4D53061CADB7FD6320E9913F4BB481" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\fonts.py" />
+                    </Component>
+                    <Component Id="cmp6DF7BEE6713702E8BE33E434D7D170EF" Guid="{86F2E712-D64D-4D7E-9B66-B72F35E2356F}">
+                        <File Id="fil12921816C4F12996B4A9FFA1B0CE4345" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\layout.py" />
+                    </Component>
+                    <Component Id="cmp18AA09E08A2F2DE8F8442803D866BA6F" Guid="{0E6E96E5-81EA-48D4-A81F-FA1B6A0E7039}">
+                        <File Id="fil084F8E2A44A21266B5176A307D37AF42" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\node.py" />
+                    </Component>
+                    <Component Id="cmp9A0C2619EDDF4EE717C986D25708BEFA" Guid="{8358FBFB-7A31-4114-8D67-A809D1BB159F}">
+                        <File Id="fil987F5A02C0BD167BBE1ABC959DFEBDB8" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\size.py" />
+                    </Component>
+                    <Component Id="cmpC0665459F45FA58BDA35C8DF6E5EE69B" Guid="{F69CFD07-339D-407A-AE42-E003853AB21B}">
+                        <File Id="fil5186A1FC22D5041A4A4A9B0DAD077CFF" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__init__.py" />
+                    </Component>
+                    <Directory Id="dir3D1FF44DF964A6C6E54BB94A24EA263D" Name="__pycache__">
+                        <Component Id="cmp4875B8614EE4C4A32DCF6180AAC006C5" Guid="{9FC78E3E-0BF8-4775-B026-CE1DB7D18AAD}">
+                            <File Id="filC6F3F52720C9D66EAFF0B7FB36113940" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\colors.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp140E845789223C053B04939581DCD360" Guid="{E41D8C4E-B4FF-4244-927A-E85C6A3A2A7E}">
+                            <File Id="fil7639EE45A0694E4B13A00D56D77AF41F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\constants.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpA73E86FCC29CE4C0B8A5E02B5A70393C" Guid="{989640EE-D8B1-45D5-A29C-8787A8CB881B}">
+                            <File Id="fil649E69998E497AD5BAB7FFC0F0B22B85" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\declaration.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpE26AB511316C6D7D8A55718E9DEF2307" Guid="{9F712F50-B35C-4FE5-8FB6-7789BDA94315}">
+                            <File Id="filDF70B9BD4BCA7C9750AC1E8F97367DD7" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\fonts.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp8BA2428BA94F66E0F87B960F976D3DA4" Guid="{F4338DED-36A1-4A3A-8407-69111B43E706}">
+                            <File Id="fil64C65F2ED097F22BBE1A90007528192D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\layout.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp54182B4D334CD718BEAA602A4C05320B" Guid="{2BB012B8-2B6C-45FE-81EB-A7B1AB0A2ED8}">
+                            <File Id="fil13363F8CF10F2FC23D9A4B6F311F115E" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\node.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmpD6EF4F510BEA076AAC55B32B26E52B3E" Guid="{B89F674A-E9FB-45B8-B49B-3888A628CC7A}">
+                            <File Id="fil709067C378DD30AAFC20D8BF28112AB4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\size.cpython-38.pyc" />
+                        </Component>
+                        <Component Id="cmp51687E71F2E9F4F7597A0F5217075217" Guid="{28B88CE5-F134-46CC-B57D-2D54CFB011EC}">
+                            <File Id="filE6E49ECAC5E1416AD28FD6B7FA13B96D" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino\__pycache__\__init__.cpython-38.pyc" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="dir2146076E724903708931CCECF67F3252" Name="travertino-0.1.3.dist-info">
+                    <Component Id="cmpBC392145629C3498334F036A2D99BA3E" Guid="{D3B66E10-94BE-40B4-825A-7874726E9A22}">
+                        <File Id="fil21054597C5F694C93EFC1B8F7A1D5956" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\INSTALLER" />
+                    </Component>
+                    <Component Id="cmp70CD8CA2F2D4012B1A8A9A02B7309A29" Guid="{B963A507-8183-4931-A9BB-4635FAF63498}">
+                        <File Id="fil6E8C34B3B078101C07F5E59F2EE965C9" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\LICENSE" />
+                    </Component>
+                    <Component Id="cmp33ED5DD24C207CFE8119E913E5CC9B93" Guid="{A2423A0D-C101-46F3-909D-ABBE9EF7F5E9}">
+                        <File Id="fil074BE20A66073FD057E3E9D6D91F67F4" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\METADATA" />
+                    </Component>
+                    <Component Id="cmp4B2520828F991FB14AD349EEDFC617EC" Guid="{F0732F81-7A80-49B7-8AF6-8788EEC3C5C5}">
+                        <File Id="filAB202C4C448B818BB0BA4FCC7F07FA81" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\RECORD" />
+                    </Component>
+                    <Component Id="cmpE577D93DF23F616666496A85457BC731" Guid="{7D414AD1-C7CA-4708-80F8-618EB4506191}">
+                        <File Id="fil9A2BD766745302B36450C71DBC28E478" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\top_level.txt" />
+                    </Component>
+                    <Component Id="cmp94CEA2CBBF15C52DC4BD451153AB48C2" Guid="{C9C3C7C5-C2DF-4FD0-9F54-8BDF9881052B}">
+                        <File Id="fil0530A7D057BE1B9674C1DA0A78F3992F" KeyPath="yes" Source="$(var.SourceDir)\app_packages\travertino-0.1.3.dist-info\WHEEL" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="dir977EE6A16A4AF03EF9864DB20BE8AA04" Name="python">
+                <Component Id="cmpDF1065895419D237D554F7965E222C24" Guid="{1C850E1C-F9BA-474D-9D41-8EC443B82F65}">
+                    <File Id="fil9A79CDD215333AAFFA716B8FEFD7F029" KeyPath="yes" Source="$(var.SourceDir)\python\libcrypto-1_1.dll" />
+                </Component>
+                <Component Id="cmp921AF64766F76F2E7F2498217CE1A3E4" Guid="{1D08CBB6-7C82-40FD-AB5F-63B02E15E358}">
+                    <File Id="filE3C058B6EDF8091A496D20731515AA34" KeyPath="yes" Source="$(var.SourceDir)\python\libffi-7.dll" />
+                </Component>
+                <Component Id="cmp9D0B7C0F9C0603B18E6BA454F9D8CE75" Guid="{20992E9B-F18F-4A59-8764-EDCBCE412302}">
+                    <File Id="fil5095E345255150C10B630D8AF55B8B22" KeyPath="yes" Source="$(var.SourceDir)\python\libssl-1_1.dll" />
+                </Component>
+                <Component Id="cmp180EA37A7132010FCC358698E1B562DD" Guid="{9B512405-5FCB-420F-84A1-D04B4EB004A3}">
+                    <File Id="filF941E92B82D36699E2F725C4684D9C1B" KeyPath="yes" Source="$(var.SourceDir)\python\LICENSE.txt" />
+                </Component>
+                <Component Id="cmpD7EA4D1444A7C425BB8FB4E9819AAA14" Guid="{7D78A71D-B031-4A65-9FA9-6107D6F51DB5}">
+                    <File Id="fil64CBCF5B89CB6A297EF50B795EFD0DCC" KeyPath="yes" Source="$(var.SourceDir)\python\pyexpat.pyd" />
+                </Component>
+                <Component Id="cmpF329B89FE869F426479D2B9CA73F1210" Guid="{7D7F8A7C-8942-450C-B954-CAB35A0C4F77}">
+                    <File Id="fil8B1D76EDA22952DAF8F484ACBFAA7228" KeyPath="yes" Source="$(var.SourceDir)\python\python.cat" />
+                </Component>
+                <Component Id="cmpAF3C49F975C8A06348EC724E50D604C7" Guid="{A57E17CE-D7F2-434D-A153-8BBFEBEC5B19}">
+                    <File Id="fil918C743AF367373486BFD635CB906F36" KeyPath="yes" Source="$(var.SourceDir)\python\python.exe" />
+                </Component>
+                <Component Id="cmp13E307EAE3C44F0F240FDA40F7C5EA1D" Guid="{E12E2C34-F8B4-4E54-BB59-717AFE2A5F73}">
+                    <File Id="fil171AACE969FE4A117453AB8EA0A94CD0" KeyPath="yes" Source="$(var.SourceDir)\python\python3.dll" />
+                </Component>
+                <Component Id="cmp4938B2DFADBD7F5E78E684D86F653C28" Guid="{721BD90D-4965-4ABA-B389-412A716990F6}">
+                    <File Id="fil5748F917F2ACC4B152356222CF2E14B6" KeyPath="yes" Source="$(var.SourceDir)\python\python38.dll" />
+                </Component>
+                <Component Id="cmp983BA6535C19653C6592A5A6257D6BF1" Guid="{690F4453-D87E-40DB-9F28-F5B24AF870BD}">
+                    <File Id="fil446F6127FC418242A50B2761E909DC8F" KeyPath="yes" Source="$(var.SourceDir)\python\python38.zip" />
+                </Component>
+                <Component Id="cmp188BD5F7B2C2AF7787533BF3B47D397C" Guid="{AD662D59-9172-40BD-809B-F2B2FC8839DB}">
+                    <File Id="filE36CED43263FACEBC896C66CE76A5C76" KeyPath="yes" Source="$(var.SourceDir)\python\python38._pth" />
+                </Component>
+                <Component Id="cmpEE9FC05BDA3FB041883878A24FE94101" Guid="{7954172D-57B1-4562-A793-1C3C74277259}">
+                    <File Id="fil670B1AAC59CA0782D73BAAC39FE7E257" KeyPath="yes" Source="$(var.SourceDir)\python\pythonw.exe" />
+                </Component>
+                <Component Id="cmp1D46A8AD96AF9E87FDE7A2E1098C0BEC" Guid="{8DE58BE8-1E46-45D7-B8F5-FEF929400CB7}">
+                    <File Id="filBBEF40A7C600DD919ACAB23422BDDB22" KeyPath="yes" Source="$(var.SourceDir)\python\select.pyd" />
+                </Component>
+                <Component Id="cmp0EC56817134666A539F8BBF338ACCC96" Guid="{F6DDB457-F159-4FE2-BBCE-2BE240E5F8C6}">
+                    <File Id="filC4AE1617F953A6D14198B13C34C119F3" KeyPath="yes" Source="$(var.SourceDir)\python\sqlite3.dll" />
+                </Component>
+                <Component Id="cmp8E9F930F3BDD48A81919F8A83D649317" Guid="{87DF8334-8F24-4EDE-9738-2DCAEECE0ACE}">
+                    <File Id="fil79DFE1AE9DF9B169494551B16DC46349" KeyPath="yes" Source="$(var.SourceDir)\python\unicodedata.pyd" />
+                </Component>
+                <Component Id="cmp005DD7E28E991B5D0490B75EA6CBE7CF" Guid="{D3BAB9B0-7494-477C-B2B8-E670FB443AD7}">
+                    <File Id="filD8BC840BC9D505128DB9B150880ED732" KeyPath="yes" Source="$(var.SourceDir)\python\vcruntime140.dll" />
+                </Component>
+                <Component Id="cmpD65A882F7EE88785A55FB795A05D3375" Guid="{C4C8024B-0C98-42FD-8585-444BC07C0144}">
+                    <File Id="fil956037013C908EC9BECA2BE9ED94EEF7" KeyPath="yes" Source="$(var.SourceDir)\python\vcruntime140_1.dll" />
+                </Component>
+                <Component Id="cmpA6F0F6B200E43684B33586A58C9471D0" Guid="{1B4B1C2B-F578-4C95-8B66-68C594240F4A}">
+                    <File Id="fil631C313FFE545BFEFC7B440CB914D6EC" KeyPath="yes" Source="$(var.SourceDir)\python\winsound.pyd" />
+                </Component>
+                <Component Id="cmp2CFE8BAB75FB2626233FABFBD92C12FA" Guid="{5D3C4C88-E6BB-4A55-8550-126CE5D60028}">
+                    <File Id="filA5585E3CDAEE2EBDA176E49A665CF4EC" KeyPath="yes" Source="$(var.SourceDir)\python\_asyncio.pyd" />
+                </Component>
+                <Component Id="cmp58590429A0E4A11F7A968C18B4DEAF00" Guid="{CC2E2BD9-DA28-4B80-BC60-BB4A78C07991}">
+                    <File Id="fil20DBC688732694E4FC7F49103CD1DEFF" KeyPath="yes" Source="$(var.SourceDir)\python\_bz2.pyd" />
+                </Component>
+                <Component Id="cmp586608416ED70B7A14FCD3343D022923" Guid="{CA257C42-7245-4740-8B5E-008B22BBC2E9}">
+                    <File Id="fil3EF4833468E559A8B087E96B9612862C" KeyPath="yes" Source="$(var.SourceDir)\python\_ctypes.pyd" />
+                </Component>
+                <Component Id="cmp580D5B3F351C86D8A5FDDC3D9AA3ED62" Guid="{D011E9AC-CEBA-43E1-BDBE-6F4D53AD8B37}">
+                    <File Id="filD0B9B1C63D31A10EB0F0503467AE4FA8" KeyPath="yes" Source="$(var.SourceDir)\python\_decimal.pyd" />
+                </Component>
+                <Component Id="cmpF506D3BE90C56F219C8B5AAA29E527B9" Guid="{2DB0C4CF-0856-4C40-81B9-0A06B6E72A80}">
+                    <File Id="fil3D7AEA59502662BE32E8BBFCC64273BA" KeyPath="yes" Source="$(var.SourceDir)\python\_elementtree.pyd" />
+                </Component>
+                <Component Id="cmp317D36B84C12C85A42B8749D8DF42799" Guid="{3CB87203-805A-43A0-904A-DEAFAABF1E42}">
+                    <File Id="filA8E201B1BCD1EC7F1D869B1ACAEEEB1C" KeyPath="yes" Source="$(var.SourceDir)\python\_hashlib.pyd" />
+                </Component>
+                <Component Id="cmpB979FD1C7F76319B2A6711F901C4E8E8" Guid="{B67A5654-CB59-427E-AD49-EACFF2B0AF5F}">
+                    <File Id="filE9E1FD8BE1F4EDFB20C8E08F66E836A1" KeyPath="yes" Source="$(var.SourceDir)\python\_lzma.pyd" />
+                </Component>
+                <Component Id="cmpC302BC1C42105A1877C4B94FD985A658" Guid="{B2BEE079-2180-46A6-B546-BCEE9A9F6A66}">
+                    <File Id="filF4CAE98E68B81F92E4CB4F4FF4159565" KeyPath="yes" Source="$(var.SourceDir)\python\_msi.pyd" />
+                </Component>
+                <Component Id="cmp5CFD75E99E00F5B2D2FF04791FFC9603" Guid="{7E7553F9-62EB-414B-9A87-E31FB8E029C3}">
+                    <File Id="filE7D9A0C6FA153B364583038F214D6F3C" KeyPath="yes" Source="$(var.SourceDir)\python\_multiprocessing.pyd" />
+                </Component>
+                <Component Id="cmpFEBFBE2A5632C04113525DBEEB7753E1" Guid="{F4B5D5A6-8588-4E20-ABD3-5F764199F808}">
+                    <File Id="filBD6F4349AC887ED42B5D1683A80E78AD" KeyPath="yes" Source="$(var.SourceDir)\python\_overlapped.pyd" />
+                </Component>
+                <Component Id="cmp352C31A07511AE0C07176AB5397B8A33" Guid="{EF203C62-8A06-4628-889D-DE14FCEB955A}">
+                    <File Id="fil8F3E02992F5EFA8E089A4C4434D82589" KeyPath="yes" Source="$(var.SourceDir)\python\_queue.pyd" />
+                </Component>
+                <Component Id="cmp85B9B16AB31613C88046CD955C572929" Guid="{D8AD1F92-8C4D-4E21-BAEC-E562A3EC3AE9}">
+                    <File Id="fil6D7725816221E66D97DB38EEE2D38D09" KeyPath="yes" Source="$(var.SourceDir)\python\_socket.pyd" />
+                </Component>
+                <Component Id="cmp38CC746B542A87025D5928251FE486F8" Guid="{C1E1E4CB-5D5D-4240-A2F6-D8F12B76C180}">
+                    <File Id="fil111AABC2E49A4011D9E36A591B29A99A" KeyPath="yes" Source="$(var.SourceDir)\python\_sqlite3.pyd" />
+                </Component>
+                <Component Id="cmp96B714FC2FC0FA6BC8934AA820305CE1" Guid="{DCF23234-E167-4B7D-BA11-319E002019BF}">
+                    <File Id="fil0BCB07246037BFAD0327C148D868FD93" KeyPath="yes" Source="$(var.SourceDir)\python\_ssl.pyd" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="blackjack_COMPONENTS">
+            <ComponentRef Id="cmpCBD5C3ED7389ED03D7F63149ABB5F82F" />
+            <ComponentRef Id="cmp38C5EC3F6A6F974815BAAAA8A7FAC7D8" />
+            <ComponentRef Id="cmpF17F198021AA3210C05253596579043A" />
+            <ComponentRef Id="cmpD334F5E27E54AEF040C0D5AD06AC9B84" />
+            <ComponentRef Id="cmpA1BE8173E5D24AED281C30E786CA3297" />
+            <ComponentRef Id="cmp2B0F72E759463416AEDA10DC2831497B" />
+            <ComponentRef Id="cmp1BCF9E4C152A68D8479E654801DF5067" />
+            <ComponentRef Id="cmp89244439B1A2014396C944780451F525" />
+            <ComponentRef Id="cmpFDDFC926480E3551E29BFFC4BFF00127" />
+            <ComponentRef Id="cmpBFF8876D0D803ADD9222A0EFF9BF208A" />
+            <ComponentRef Id="cmp10180543BB15EA4C7E5181267966D452" />
+            <ComponentRef Id="cmp0A3AC91134D22E64EB1852AABB578BD4" />
+            <ComponentRef Id="cmpDE4DFAB18EF4A32F4CA6027D3803EB9B" />
+            <ComponentRef Id="cmp447841D3171D1EFD25544A6020EC7EC7" />
+            <ComponentRef Id="cmp06A9F249A537B0B7E1DC858354FD1A6F" />
+            <ComponentRef Id="cmpE2697BB42ECAD3916F57B698B4A742D4" />
+            <ComponentRef Id="cmp8B263F06B9EC809507A754E6AC65A0B9" />
+            <ComponentRef Id="cmpA1C3EC6938A9CEB73535F5D0E86A5067" />
+            <ComponentRef Id="cmpCE6004845180DACF6B1A46E15F9CADF7" />
+            <ComponentRef Id="cmpA0D193A544EC0ADA683F70735DFF5F4C" />
+            <ComponentRef Id="cmpFD09778077FC7C6097A4F301F3CA1761" />
+            <ComponentRef Id="cmpC5437771563CE4BC4564825FAC0777BE" />
+            <ComponentRef Id="cmpBFC62D8C2543870FC66EABE079642E1B" />
+            <ComponentRef Id="cmp19A1DF519EC938091C12EB3D59FBAC0D" />
+            <ComponentRef Id="cmp6EACB31BFC115556A547392ED25F3501" />
+            <ComponentRef Id="cmpA64077D6FFC53B7AFE7DF3962BD9A5F2" />
+            <ComponentRef Id="cmpE6FE54F418172B156D31507C75E3C1ED" />
+            <ComponentRef Id="cmp38687C70E7DEC72D09C53A78D01F57AC" />
+            <ComponentRef Id="cmp61B68FD9005B269E5B9C0277AA3A68F4" />
+            <ComponentRef Id="cmpA43D3F6EFBE0A8C582714FDE2697EAB6" />
+            <ComponentRef Id="cmpD221D5ECBC10A031E5DF0E291F4E6866" />
+            <ComponentRef Id="cmp85FED2D05FB70E063775547446C03285" />
+            <ComponentRef Id="cmp66EF43EF6FC15198F12C45B5D437B8AB" />
+            <ComponentRef Id="cmp51D03242BAA6158A0C81682207471474" />
+            <ComponentRef Id="cmpBD5A538351A61D98F75194A5F7CC1222" />
+            <ComponentRef Id="cmp36C0B338506C7D5F053322502BA7B492" />
+            <ComponentRef Id="cmpF1C6E9863D8AA7232A724BD6CED0D677" />
+            <ComponentRef Id="cmpEE6CE2F76A9F36CD5278198929666AF0" />
+            <ComponentRef Id="cmp65E70C202C2ABCA789D46372FC948156" />
+            <ComponentRef Id="cmpBB0DB4BF6AB50BB74EEDF7025AA228CE" />
+            <ComponentRef Id="cmp024734F33A0B1FAF34ACBBB8C34B34D3" />
+            <ComponentRef Id="cmpC4760FE6A343E082FFCD94DDA5FF03D5" />
+            <ComponentRef Id="cmpAEB914179C303F2802E0E68A54E29B9C" />
+            <ComponentRef Id="cmp271FC1C3A2867FAC8BE8F1230AB35C90" />
+            <ComponentRef Id="cmp3E49E2B5AA93BCC2F122B5337D20CA80" />
+            <ComponentRef Id="cmp549223005ED56F210514A1EFC1AFD1B4" />
+            <ComponentRef Id="cmpFE7723CC233C3CD426188A5650B45088" />
+            <ComponentRef Id="cmpFD2893FBB52B911D4083F75CA7CE3FB8" />
+            <ComponentRef Id="cmpD0E79F565EA864940DF2AC5043083BED" />
+            <ComponentRef Id="cmp31264CF6079D8144D00381F0012DFCB7" />
+            <ComponentRef Id="cmpE68E248DBD6AA69319F82452909FD1FC" />
+            <ComponentRef Id="cmpF14556E1DC67BAE018A21E9CB44626C9" />
+            <ComponentRef Id="cmp1F5BBDDB884B8CCB0F260C4E84582189" />
+            <ComponentRef Id="cmpE48F4E3C93ACFBD9544BC86EA1848408" />
+            <ComponentRef Id="cmp27877F0B4DB1F9D0E2A9E3F4C5C774AF" />
+            <ComponentRef Id="cmpF35BCFAD971C561DDFBF073206B5F91F" />
+            <ComponentRef Id="cmp20E3E9125CD97A7026F3DA4262392F9E" />
+            <ComponentRef Id="cmp336250C46E0D3C1F3911C05CA598D9AE" />
+            <ComponentRef Id="cmp8722DA2FDA6C400D804B92F1D63D14F8" />
+            <ComponentRef Id="cmp1AF96E9140224CDD22AC8606886A1B2B" />
+            <ComponentRef Id="cmpEFD6C978CFD54827BB795DE00B63055B" />
+            <ComponentRef Id="cmpF6AE5A4D9F1FEAD4871989EDD8F51585" />
+            <ComponentRef Id="cmp597C23A80FE62403624A896207FD5D81" />
+            <ComponentRef Id="cmp18754F85AD18767616860ED8DDE0E7B4" />
+            <ComponentRef Id="cmpCF33A6698687921071C20C01B4047923" />
+            <ComponentRef Id="cmpB490AD1C44E923FF77533200DC1946C7" />
+            <ComponentRef Id="cmpC9B3B0B7A569A7B0F168E57B8B58CE6D" />
+            <ComponentRef Id="cmp2F55963F1F45958412B8465EF2AA6067" />
+            <ComponentRef Id="cmp91E33DC5B5E4974DF65D1E9FB7249598" />
+            <ComponentRef Id="cmp7A14BA0CD9105F620F9FE03B973FDC29" />
+            <ComponentRef Id="cmp02E5D0058F55F807413A882F8B51090A" />
+            <ComponentRef Id="cmp5DFAC37BF81454649A3285B6243BE7A8" />
+            <ComponentRef Id="cmpE5D514FD9759C204F0163730678A5086" />
+            <ComponentRef Id="cmpD4BE4731D972250614A2258A121681EA" />
+            <ComponentRef Id="cmp4F027330AC0B69907D68C09D127A99FE" />
+            <ComponentRef Id="cmpAD575E4AD829446EAFD7946B612884D3" />
+            <ComponentRef Id="cmp62AB2B94675B8C957D0674BD149C6151" />
+            <ComponentRef Id="cmp454A20C2F45CC95D5E467647B46B8B0C" />
+            <ComponentRef Id="cmp78E2FA66714554ABE4E4E1AF1C4F6135" />
+            <ComponentRef Id="cmpF2BD8C95380FB172E8CE74F53C497D48" />
+            <ComponentRef Id="cmp43F079AC1FAE8E7E3639D008BC227225" />
+            <ComponentRef Id="cmp565C3B9217B71F6C2E7E775D23DEAB80" />
+            <ComponentRef Id="cmpA1D7BCD540CE7FC2CED9FC4502F100C3" />
+            <ComponentRef Id="cmp677A15684827A74B907282D5E7A648EC" />
+            <ComponentRef Id="cmpECF64077B94D325B12E474F2669E8D59" />
+            <ComponentRef Id="cmp05178A59130BDB5DE4D2DCC4C54ADCF9" />
+            <ComponentRef Id="cmpE62B5F69844FA35FB8C86BFF975F6986" />
+            <ComponentRef Id="cmp8687C17DDD2C0A299DDAEB455BCF93EF" />
+            <ComponentRef Id="cmpA2B8EDEA2DF308DE8B6B121B94454726" />
+            <ComponentRef Id="cmpB21195450C6DA1F84F6CF776E637B30B" />
+            <ComponentRef Id="cmpB2B69B077FE2047691A7BA680B267EAB" />
+            <ComponentRef Id="cmp23704CC1B7575D0DC72B1E0AE388FA5F" />
+            <ComponentRef Id="cmp2EDBFE1D18F8BCEDCEA6B7ED05BC800C" />
+            <ComponentRef Id="cmp30DE7527F95EB67E23413FEC65228C53" />
+            <ComponentRef Id="cmpA8A8CDD6D172146AA309D2510C04DCEC" />
+            <ComponentRef Id="cmp60B22800520F87F160EFAC0A051ED0D1" />
+            <ComponentRef Id="cmp4CEB1326F60614D34027A564BD3633CE" />
+            <ComponentRef Id="cmpB30C276449669EC417B21AA306D46520" />
+            <ComponentRef Id="cmp33329BD66A811BA50BF0D320C9967532" />
+            <ComponentRef Id="cmpE83D137D4500A66E3118BD772096D554" />
+            <ComponentRef Id="cmp4A0F9154B18B9F20502AF053C4DBADA3" />
+            <ComponentRef Id="cmp7C6C6D41098F048EBC6A77203CAD88C1" />
+            <ComponentRef Id="cmpCA974E42AB8553F202D91897606D211A" />
+            <ComponentRef Id="cmp3505A1C7452D9D47038F44F5B6D87190" />
+            <ComponentRef Id="cmp1A03858DAC39D7F564197374E66961CF" />
+            <ComponentRef Id="cmp293B05AEB2EF4E0A56A289B056A85F0B" />
+            <ComponentRef Id="cmp5E97ED52111DB621FA5A54050F974D12" />
+            <ComponentRef Id="cmpE6918D2929C7357C8DE45E0D62024434" />
+            <ComponentRef Id="cmpBBF4F65617BC2C644DC2B1FD70BECE81" />
+            <ComponentRef Id="cmpE601FD3B35DB80D97DE14BB4F4DB12E7" />
+            <ComponentRef Id="cmp3ABA090604E989EAC76EB55737A6350C" />
+            <ComponentRef Id="cmp23DF7B9F6F06AB171AA4889A9A616A88" />
+            <ComponentRef Id="cmp4C47E0E0DED4A4F91CBF71C81F4EF09E" />
+            <ComponentRef Id="cmpC4EAA517E52E5BC0C3B138EBF0701B95" />
+            <ComponentRef Id="cmpEA362CE10BB6B1E8381A942B7FCE23A9" />
+            <ComponentRef Id="cmpB4C58033DBD96F32EF93FD90B9FEB9D0" />
+            <ComponentRef Id="cmpAF581CE04BDE38B4FEB3BC47AD77B8F2" />
+            <ComponentRef Id="cmp22315CA39D1E3966422C369026057EF5" />
+            <ComponentRef Id="cmp548FFEC7DFB1363715E338B36FF8E02A" />
+            <ComponentRef Id="cmp2526C66F96F3C1B3828DBBE80A718F39" />
+            <ComponentRef Id="cmp1AE0628B27312E1A6B93314BF8679ED0" />
+            <ComponentRef Id="cmp6D493F79E626C965FF90214114CE6485" />
+            <ComponentRef Id="cmp9AD1DA68D07645F88432F691501EEA42" />
+            <ComponentRef Id="cmp6688E4EAF25EA098EE9D68420E48BBD0" />
+            <ComponentRef Id="cmp2241E9BDAC937FB2FB0C79C6A84C6A35" />
+            <ComponentRef Id="cmp2042E6B8F586D0F2A2AF586377D466FF" />
+            <ComponentRef Id="cmpFDF0711DCF1A5EE1F4008367568A54CF" />
+            <ComponentRef Id="cmp5962C4C5365B803AA2FF203765FA7F34" />
+            <ComponentRef Id="cmp88DC4AD94E03F36B64C375985B35A51A" />
+            <ComponentRef Id="cmpD16BCD14351F4D2C89D31ED0A7A68B54" />
+            <ComponentRef Id="cmpD8C9CE7BB83049FF13CECBBD45CCF6E9" />
+            <ComponentRef Id="cmp21D6D125687F983B5600BB83ECF6DA89" />
+            <ComponentRef Id="cmp0D3DE45ADEB21DC5D644F5880AB5FBB4" />
+            <ComponentRef Id="cmp51351ECA120BEBFCEEC980F3D4683F91" />
+            <ComponentRef Id="cmp07B6D86F8408D737D6518B5789AE3F8B" />
+            <ComponentRef Id="cmp1B311CBFC3F99A6737FA119752AF20C2" />
+            <ComponentRef Id="cmp2D87905CEF9FAE79E0996E3D7BCF06F5" />
+            <ComponentRef Id="cmpEF2908834C470CD54D004A5E4A1A403E" />
+            <ComponentRef Id="cmpC3CE51C8B77E02308FDECDCAFA3FE3CA" />
+            <ComponentRef Id="cmp725CA8B4AA315698AAA5019C27C2029A" />
+            <ComponentRef Id="cmp912CCDE147E133D6B9D356B805A10A9F" />
+            <ComponentRef Id="cmp766A914744B3FFF173DC8E6AFC4F9E86" />
+            <ComponentRef Id="cmpB648C1B74A96733B234252F639AE76E2" />
+            <ComponentRef Id="cmp59D937043AE2EEB2CF5DAA46BC78A885" />
+            <ComponentRef Id="cmp9729E20DD6E458208CD41AAE96729F76" />
+            <ComponentRef Id="cmp37A80F103BBEBDD0F7C4BF6541C5AAE1" />
+            <ComponentRef Id="cmpF296E50616E950F631A2CB088A79B2DE" />
+            <ComponentRef Id="cmp0E06C36EA6C7BA2669C568036DC38C05" />
+            <ComponentRef Id="cmpED9DF9B532097465FB87C207B60511D4" />
+            <ComponentRef Id="cmp01388BC265495B49ECE4E72B1BE639D8" />
+            <ComponentRef Id="cmpB536E8C772F88301F267592E2F42DB2B" />
+            <ComponentRef Id="cmp694930F88888EBA7DD4D637C414DBC3E" />
+            <ComponentRef Id="cmpCB90AD857DB9FEBE947E28ABB1A5A753" />
+            <ComponentRef Id="cmp2D21B165795D738460410B6183E829F6" />
+            <ComponentRef Id="cmp2133F812AB1A28BEEFC5DF71C9FC648A" />
+            <ComponentRef Id="cmp52EF6F56B94657127E31FEE9168F94CF" />
+            <ComponentRef Id="cmpD91D729A1192914C0B2DA328F930D797" />
+            <ComponentRef Id="cmp06E4619976FD93E7BC936CD16645CAA1" />
+            <ComponentRef Id="cmpE509E863F72EEA8214EF76F0C3B637F5" />
+            <ComponentRef Id="cmpCA77A96E4D9B43C187D9DE7E0BB1412E" />
+            <ComponentRef Id="cmp0F362B4648C6CA37BA2BEE9E99984C29" />
+            <ComponentRef Id="cmpB99C9D751B33FC48AC3F8BA9F5DA1A67" />
+            <ComponentRef Id="cmp4D940008B27E8E68868505E3EA217A56" />
+            <ComponentRef Id="cmp2317AB47584B38BC3046DA68B138012B" />
+            <ComponentRef Id="cmp31F37009D38AAE12827ADCF75E74D773" />
+            <ComponentRef Id="cmp1BDBDDAB3CA9C61DA3F9731EB46D3D60" />
+            <ComponentRef Id="cmpF6E0EEF781D2D593B2273F271B076D8D" />
+            <ComponentRef Id="cmp2958E89E5F343BB66E0F446633D85A7F" />
+            <ComponentRef Id="cmp63CF4879462936731B21D2B4F0BF32AA" />
+            <ComponentRef Id="cmp1EE69C3B352D4AD503BCC086BA436B30" />
+            <ComponentRef Id="cmp7BEAF2BFC23AC4BD6B697D1E8640EA12" />
+            <ComponentRef Id="cmp385E283D678BC127B932102E0918E8A5" />
+            <ComponentRef Id="cmp7F18BA83588A7B89BBFC816F6C3E5C35" />
+            <ComponentRef Id="cmp21EE1246B7CAD395F1CD56855B6AE19C" />
+            <ComponentRef Id="cmpD86C258BBFADC63507974CB4C611F4B9" />
+            <ComponentRef Id="cmpBE5802837E00C22FD70307E0BC61554B" />
+            <ComponentRef Id="cmp7737BD65626626A4959E626C21C3DAE4" />
+            <ComponentRef Id="cmp0F60CA466A4A8079629B3819AE907AED" />
+            <ComponentRef Id="cmp534512AB6C5B3B4F613E7AC0567E32A8" />
+            <ComponentRef Id="cmp6B5133F0DA352E01A143A2F1BCFB979C" />
+            <ComponentRef Id="cmpA87EFF795B4F663430746F112C7C155F" />
+            <ComponentRef Id="cmp7919FF3516F53D5D4A7BC756702DF6E5" />
+            <ComponentRef Id="cmp6E020E787EEFC2BFA63805A9B4655BF3" />
+            <ComponentRef Id="cmp1E6443CEB6D1D187F2572048354E7242" />
+            <ComponentRef Id="cmp7012781FEBA71BD0192142E2102C711C" />
+            <ComponentRef Id="cmp7F12338A795DA9538E88D77A0ADD2137" />
+            <ComponentRef Id="cmp366E25969348CD601DDDB29407B41023" />
+            <ComponentRef Id="cmpEF90B07010B8F44D8CB2983AD76E4402" />
+            <ComponentRef Id="cmp7D0E4549B4EE16C4E9081EC49C0A6D26" />
+            <ComponentRef Id="cmp75B69AE38DF9A609B9046F54B9ECC34B" />
+            <ComponentRef Id="cmpF25E52028AEE4AA15AC0D2D0C3A6B861" />
+            <ComponentRef Id="cmp90B0118CDE2823639A86F01C692B2FF3" />
+            <ComponentRef Id="cmp90274EF54D17F8A512D561E18E68422F" />
+            <ComponentRef Id="cmp6789C6D4D84F3DF37948C3A570525DAA" />
+            <ComponentRef Id="cmpAB91B5FF76D569243C5001E645B4E2E2" />
+            <ComponentRef Id="cmp1AC114F63A42E138821CD2519AE4B81C" />
+            <ComponentRef Id="cmp162401D0F4AC4AFF72C7C571B95F10A4" />
+            <ComponentRef Id="cmpF6B433B9F629D8D3BA4A2525CF3188EC" />
+            <ComponentRef Id="cmpAA626858AD29E5D2DA95EA9A06560A16" />
+            <ComponentRef Id="cmp945A31B9D3A23F18F680541CA55A9C02" />
+            <ComponentRef Id="cmpBACCCC07969090AA27AECA173D96F8C9" />
+            <ComponentRef Id="cmp99445A26F0C3B543617D5BD906D789AB" />
+            <ComponentRef Id="cmp749B0B2C2CC0FB3B70E88A509F2E0704" />
+            <ComponentRef Id="cmpD5E2151131F2A417E99CBB3F5DD0A541" />
+            <ComponentRef Id="cmpDACCCCD8C03573ECBD75E9C28DF46386" />
+            <ComponentRef Id="cmp8201955D8814261FA7A20FBD4041B928" />
+            <ComponentRef Id="cmp40BDAA9B3B0C4FEBE9D05CA630EDD89F" />
+            <ComponentRef Id="cmpD59FAF5AB03FB3556B1DDDA31432FB8B" />
+            <ComponentRef Id="cmp999CEFA321307385751EEF62DC2E1858" />
+            <ComponentRef Id="cmp40993CD2383327E289D72CAF710F5A37" />
+            <ComponentRef Id="cmpC91660EEF1A3CC61DB47EFA11E376332" />
+            <ComponentRef Id="cmpAB7297B26EB855AC64BCD81E38FA3768" />
+            <ComponentRef Id="cmpD2259531815AE4D156AC791F5FDA4642" />
+            <ComponentRef Id="cmpF80223C11807CF252904145283658C2F" />
+            <ComponentRef Id="cmp6F1F000CF62BBD04E157D26ADA001F3C" />
+            <ComponentRef Id="cmp84D70DFDED76FF721E8566BBDA9F900B" />
+            <ComponentRef Id="cmp286EB8218D712958BDB65CAD85AF56FE" />
+            <ComponentRef Id="cmpA341394067A9CB32EBCEB7FCCDEA3B76" />
+            <ComponentRef Id="cmpBBAD7BAF623E289C175DC007F2B9BB6E" />
+            <ComponentRef Id="cmpAF6BF742AA652D914D61001D1B015403" />
+            <ComponentRef Id="cmp5D3ED49DBFBB071BCFAC26DAA1C0B4DA" />
+            <ComponentRef Id="cmpF41D990EC10F60A98A0614337AAC2E37" />
+            <ComponentRef Id="cmp95A732ACED37293821B4FD483F45091E" />
+            <ComponentRef Id="cmp2CF405D1A86AB8EC55393EE82A97DFB4" />
+            <ComponentRef Id="cmp07AC11F3366000D0E329D17D68A5569C" />
+            <ComponentRef Id="cmp5A1DA9008B872A769AA3AA324926D7B8" />
+            <ComponentRef Id="cmpBE34873B8FECC3B5D464542C69BAFC61" />
+            <ComponentRef Id="cmp324961AE8432A47962432A6D383B16EB" />
+            <ComponentRef Id="cmp975A42EDCA298E7633D30C621307C300" />
+            <ComponentRef Id="cmpBEDA1D663145476BC184683777A5534A" />
+            <ComponentRef Id="cmpF4F889212B58545558F5A74F3405A209" />
+            <ComponentRef Id="cmpBFD0F102DABEB70B8085F6C0AC82335C" />
+            <ComponentRef Id="cmpA5AF14BF271D7241DF257AD23DB7868B" />
+            <ComponentRef Id="cmpBF9712E7CB1321D157048D558FD00D12" />
+            <ComponentRef Id="cmp44517ED04C445E98A6AE68D12AEA6314" />
+            <ComponentRef Id="cmpE1CD5C960632321D89F91439A80A9FD3" />
+            <ComponentRef Id="cmpBFFEF548C35B8AD87D64DAE12E427D00" />
+            <ComponentRef Id="cmp56F330C017D66E9754D8068856354521" />
+            <ComponentRef Id="cmpA5E54F57663DBA5EB1AD4FF8CB854FFB" />
+            <ComponentRef Id="cmpDB761C2A23416D0D0CEF3A900B8941FF" />
+            <ComponentRef Id="cmpDC904D87AC79BC2FDB2D09F11F1F1311" />
+            <ComponentRef Id="cmp313194EABBFFAB94EC6B8FBF59A79ECB" />
+            <ComponentRef Id="cmp5A2DF10DDC7AABAF6CD8DF28CEDA2685" />
+            <ComponentRef Id="cmpAFA6BC3857C6F01FD6B0EA9A15746E7A" />
+            <ComponentRef Id="cmpEEF2ABCBF9C05C50939E81F97796668E" />
+            <ComponentRef Id="cmpCC50F6CCE680A319F8C8C1C59796A836" />
+            <ComponentRef Id="cmp34533C272C0B8538126392573B06D1CA" />
+            <ComponentRef Id="cmpDBCB193CAB8437CD7E0D9E2E259A9F77" />
+            <ComponentRef Id="cmp29C5DB78B2969D459C7775E147C5D836" />
+            <ComponentRef Id="cmpE3F3AEA97D95F06169D517DCF450C9ED" />
+            <ComponentRef Id="cmpB593F6F881F6BC5E3BDF8ED3FD5A221F" />
+            <ComponentRef Id="cmp66FDEB20D17BDDD593ED0D088D51A367" />
+            <ComponentRef Id="cmp45420D959EC0CD5E714BC68B7C5CDCA1" />
+            <ComponentRef Id="cmp71BD0B64BA9B3E7A2F6DAFAA48D76F92" />
+            <ComponentRef Id="cmp008B65DBEEB6B0CC8A61480167922D7A" />
+            <ComponentRef Id="cmp303394CAA1C6178419A7513A9A406C84" />
+            <ComponentRef Id="cmpD8C9EFB9F6CAB91ABEFB4D331AF40C57" />
+            <ComponentRef Id="cmp97292FCBC07C700A3DF3C83F3CF4E16E" />
+            <ComponentRef Id="cmpDCF43E6B1AE5C28416A95C90F7BA4F1C" />
+            <ComponentRef Id="cmpBA1F514C4133194024D57E1A09CF91C0" />
+            <ComponentRef Id="cmpA2BA4A3A6AFF52EAE80CDE2C81132E1C" />
+            <ComponentRef Id="cmpB1ED4F3328F2FB64F27C12BEAD4B1ABD" />
+            <ComponentRef Id="cmp0B4477FCDF32E9C84DA0ADFA578CF358" />
+            <ComponentRef Id="cmp726F057C81ACB10EE79A62BA62714274" />
+            <ComponentRef Id="cmpB4815368ED3523D3C45875BD66420099" />
+            <ComponentRef Id="cmp73868024D68361635EA06A7E4A97D1FC" />
+            <ComponentRef Id="cmp427FADE2328DA9DCE765F07A0296D3A9" />
+            <ComponentRef Id="cmp76F037B58E4114E67991C22E32B9D870" />
+            <ComponentRef Id="cmpFD0FFE76D30B5FA35347CF7DFDA8D54A" />
+            <ComponentRef Id="cmp33F4457E195CEEA891B597E23E35A101" />
+            <ComponentRef Id="cmp6DF7BEE6713702E8BE33E434D7D170EF" />
+            <ComponentRef Id="cmp18AA09E08A2F2DE8F8442803D866BA6F" />
+            <ComponentRef Id="cmp9A0C2619EDDF4EE717C986D25708BEFA" />
+            <ComponentRef Id="cmpC0665459F45FA58BDA35C8DF6E5EE69B" />
+            <ComponentRef Id="cmp4875B8614EE4C4A32DCF6180AAC006C5" />
+            <ComponentRef Id="cmp140E845789223C053B04939581DCD360" />
+            <ComponentRef Id="cmpA73E86FCC29CE4C0B8A5E02B5A70393C" />
+            <ComponentRef Id="cmpE26AB511316C6D7D8A55718E9DEF2307" />
+            <ComponentRef Id="cmp8BA2428BA94F66E0F87B960F976D3DA4" />
+            <ComponentRef Id="cmp54182B4D334CD718BEAA602A4C05320B" />
+            <ComponentRef Id="cmpD6EF4F510BEA076AAC55B32B26E52B3E" />
+            <ComponentRef Id="cmp51687E71F2E9F4F7597A0F5217075217" />
+            <ComponentRef Id="cmpBC392145629C3498334F036A2D99BA3E" />
+            <ComponentRef Id="cmp70CD8CA2F2D4012B1A8A9A02B7309A29" />
+            <ComponentRef Id="cmp33ED5DD24C207CFE8119E913E5CC9B93" />
+            <ComponentRef Id="cmp4B2520828F991FB14AD349EEDFC617EC" />
+            <ComponentRef Id="cmpE577D93DF23F616666496A85457BC731" />
+            <ComponentRef Id="cmp94CEA2CBBF15C52DC4BD451153AB48C2" />
+            <ComponentRef Id="cmpDF1065895419D237D554F7965E222C24" />
+            <ComponentRef Id="cmp921AF64766F76F2E7F2498217CE1A3E4" />
+            <ComponentRef Id="cmp9D0B7C0F9C0603B18E6BA454F9D8CE75" />
+            <ComponentRef Id="cmp180EA37A7132010FCC358698E1B562DD" />
+            <ComponentRef Id="cmpD7EA4D1444A7C425BB8FB4E9819AAA14" />
+            <ComponentRef Id="cmpF329B89FE869F426479D2B9CA73F1210" />
+            <ComponentRef Id="cmpAF3C49F975C8A06348EC724E50D604C7" />
+            <ComponentRef Id="cmp13E307EAE3C44F0F240FDA40F7C5EA1D" />
+            <ComponentRef Id="cmp4938B2DFADBD7F5E78E684D86F653C28" />
+            <ComponentRef Id="cmp983BA6535C19653C6592A5A6257D6BF1" />
+            <ComponentRef Id="cmp188BD5F7B2C2AF7787533BF3B47D397C" />
+            <ComponentRef Id="cmpEE9FC05BDA3FB041883878A24FE94101" />
+            <ComponentRef Id="cmp1D46A8AD96AF9E87FDE7A2E1098C0BEC" />
+            <ComponentRef Id="cmp0EC56817134666A539F8BBF338ACCC96" />
+            <ComponentRef Id="cmp8E9F930F3BDD48A81919F8A83D649317" />
+            <ComponentRef Id="cmp005DD7E28E991B5D0490B75EA6CBE7CF" />
+            <ComponentRef Id="cmpD65A882F7EE88785A55FB795A05D3375" />
+            <ComponentRef Id="cmpA6F0F6B200E43684B33586A58C9471D0" />
+            <ComponentRef Id="cmp2CFE8BAB75FB2626233FABFBD92C12FA" />
+            <ComponentRef Id="cmp58590429A0E4A11F7A968C18B4DEAF00" />
+            <ComponentRef Id="cmp586608416ED70B7A14FCD3343D022923" />
+            <ComponentRef Id="cmp580D5B3F351C86D8A5FDDC3D9AA3ED62" />
+            <ComponentRef Id="cmpF506D3BE90C56F219C8B5AAA29E527B9" />
+            <ComponentRef Id="cmp317D36B84C12C85A42B8749D8DF42799" />
+            <ComponentRef Id="cmpB979FD1C7F76319B2A6711F901C4E8E8" />
+            <ComponentRef Id="cmpC302BC1C42105A1877C4B94FD985A658" />
+            <ComponentRef Id="cmp5CFD75E99E00F5B2D2FF04791FFC9603" />
+            <ComponentRef Id="cmpFEBFBE2A5632C04113525DBEEB7753E1" />
+            <ComponentRef Id="cmp352C31A07511AE0C07176AB5397B8A33" />
+            <ComponentRef Id="cmp85B9B16AB31613C88046CD955C572929" />
+            <ComponentRef Id="cmp38CC746B542A87025D5928251FE486F8" />
+            <ComponentRef Id="cmp96B714FC2FC0FA6BC8934AA820305CE1" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

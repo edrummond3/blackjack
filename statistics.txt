@@ -1,0 +1,2 @@
+NumberOfGamesPlayed: 0
+ChipsHighScore: 50

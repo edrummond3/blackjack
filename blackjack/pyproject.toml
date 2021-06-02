@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Blackjack"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/blackjack"
+license = "BSD license"
+author = 'Eric Drummond'
+author_email = "eric.drummond79@gmail.com"
+
+[tool.briefcase.app.blackjack]
+formal_name = "Blackjack"
+description = "Blackjack | Written by Eric Drummond"
+icon = "src/blackjack/resources/blackjack"
+sources = ['src/blackjack']
+requires = []
+
+
+[tool.briefcase.app.blackjack.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.blackjack.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.blackjack.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.blackjack.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.blackjack.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
